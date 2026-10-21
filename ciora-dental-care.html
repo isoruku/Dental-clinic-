@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ciora Dental Care | Confident Smiles. Exceptional Care.</title>
+<meta name="description" content="Modern, comfortable, patient-focused dental care. Book your appointment online in under a minute.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{
+  --bg:#FBFAF7;--bg-soft:#F2F7F5;--surface:#FFFFFF;
+  --tint:#E7F4F3;--tint-2:#D3EAEA;--sky:#CDE4F0;
+  --ink:#12272B;--ink-2:#405659;--muted:#5A7073;
+  --line:rgba(18,39,43,.09);--line-strong:rgba(18,39,43,.17);
+  --primary:#0E7C79;--primary-hover:#0A6764;--on-primary:#FFFFFF;
+  --accent:#2BB3AD;--accent-2:#86C6E2;
+  --deep:#0B3439;--deep-2:#0F4A4F;--on-deep:#F2F9F8;--on-deep-muted:rgba(242,249,248,.74);
+  --glass:rgba(255,255,255,.72);--glass-line:rgba(255,255,255,.9);--glow:rgba(255,255,255,.6);
+  --danger:#B23B2B;--danger-bg:#FCECE9;--warn:#DE9B36;
+  --shadow-sm:0 1px 2px rgba(11,52,57,.06),0 6px 16px rgba(11,52,57,.05);
+  --shadow-md:0 14px 34px -10px rgba(11,52,57,.20),0 2px 6px rgba(11,52,57,.05);
+  --shadow-lg:0 40px 80px -28px rgba(11,52,57,.34);
+  --r:26px;--r-sm:18px;--ease:cubic-bezier(.22,.8,.24,1);
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#08171A;--bg-soft:#0B1E22;--surface:#10292D;
+    --tint:#133439;--tint-2:#194247;--sky:#1B3C4B;
+    --ink:#E9F4F3;--ink-2:#B9CFD0;--muted:#8FA9AC;
+    --line:rgba(233,244,243,.10);--line-strong:rgba(233,244,243,.2);
+    --primary:#3EC2BC;--primary-hover:#63D3CE;--on-primary:#052A2C;
+    --accent:#3EC2BC;--accent-2:#7FC0DD;
+    --deep:#0C3A3F;--deep-2:#11484D;
+    --glass:rgba(16,41,45,.7);--glass-line:rgba(255,255,255,.14);--glow:rgba(110,220,214,.16);
+    --danger:#F29080;--danger-bg:rgba(242,144,128,.12);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.3),0 6px 16px rgba(0,0,0,.2);
+    --shadow-md:0 14px 34px -10px rgba(0,0,0,.5),0 2px 6px rgba(0,0,0,.2);
+    --shadow-lg:0 40px 80px -28px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#08171A;--bg-soft:#0B1E22;--surface:#10292D;
+  --tint:#133439;--tint-2:#194247;--sky:#1B3C4B;
+  --ink:#E9F4F3;--ink-2:#B9CFD0;--muted:#8FA9AC;
+  --line:rgba(233,244,243,.10);--line-strong:rgba(233,244,243,.2);
+  --primary:#3EC2BC;--primary-hover:#63D3CE;--on-primary:#052A2C;
+  --accent:#3EC2BC;--accent-2:#7FC0DD;
+  --deep:#0C3A3F;--deep-2:#11484D;
+  --glass:rgba(16,41,45,.7);--glass-line:rgba(255,255,255,.14);--glow:rgba(110,220,214,.16);
+  --danger:#F29080;--danger-bg:rgba(242,144,128,.12);
+  --shadow-sm:0 1px 2px rgba(0,0,0,.3),0 6px 16px rgba(0,0,0,.2);
+  --shadow-md:0 14px 34px -10px rgba(0,0,0,.5),0 2px 6px rgba(0,0,0,.2);
+  --shadow-lg:0 40px 80px -28px rgba(0,0,0,.7);
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+*{-webkit-tap-highlight-color:transparent}
+button,.btn,a,label,summary,[role="button"]{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+button,.btn{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+:where(button,.btn,.day,.slot,.hslot,.cbtn):active{scale:.965}
+:where(button,.btn,.day,.slot,.hslot,.cbtn){transition-property:transform,scale,box-shadow,background-color,color,border-color,opacity;transition-duration:.3s;transition-timing-function:var(--ease)}
+.tap{animation:tapPop .42s var(--ease)}
+@keyframes tapPop{0%{scale:1}30%{scale:.94}68%{scale:1.035}100%{scale:1}}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:1rem;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:clip}
+body.locked{overflow:hidden}
+img,svg{display:block;max-width:100%}
+h1,h2,h3,h4,p,ul,ol{margin:0}
+ul,ol{padding:0;list-style:none}
+a{color:inherit}
+button{font-family:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.022em;line-height:1.08;text-wrap:balance}
+p{text-wrap:pretty}
+:focus-visible{outline:3px solid var(--primary);outline-offset:3px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{width:min(1200px,100% - 2.5rem);margin-inline:auto}
+.ic{display:inline-block;flex:none}
+[data-ic] svg{width:100%;height:100%}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:52px;padding:0 1.7rem;border-radius:999px;font-weight:600;font-size:.98rem;line-height:1;border:1.5px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap;transition:transform .35s var(--ease),box-shadow .3s,background-color .25s,color .25s,border-color .25s}
+.btn:active{scale:.97}
+.btn-primary{background:var(--primary);color:var(--on-primary);box-shadow:0 12px 26px -12px var(--primary)}
+.btn-primary:hover{background:var(--primary-hover);box-shadow:0 18px 32px -14px var(--primary)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+.btn-ghost:hover{background:var(--surface);border-color:var(--ink-2)}
+.btn-light{background:#fff;color:#0B3439}
+.btn-light:hover{background:#E8F5F4}
+.btn-sm{min-height:44px;padding:0 1.25rem;font-size:.92rem}
+.btn-lg{min-height:58px;padding:0 2rem;font-size:1.02rem}
+.btn[disabled]{opacity:.45;cursor:not-allowed;box-shadow:none}
+.btn .ic{width:18px;height:18px}
+
+/* ---------- Progress + veil + nav ---------- */
+.progress{position:fixed;inset:0 0 auto 0;height:3px;z-index:220;pointer-events:none}
+.progress i{display:block;height:100%;transform:scaleX(0);transform-origin:left;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:0 3px 3px 0;transition:transform .12s linear}
+.veil{position:fixed;inset:0;z-index:300;background:linear-gradient(160deg,var(--deep-2),var(--deep));display:grid;place-items:center;color:var(--on-deep);pointer-events:none;animation:veilOut .9s var(--ease) 1.05s forwards}
+.veil-in{display:flex;align-items:center;gap:14px;font-family:var(--serif);font-size:2rem;letter-spacing:-.02em;animation:veilIn .7s var(--ease) both}
+.veil-in svg{width:44px;height:44px}
+@keyframes veilOut{to{transform:translateY(-101%);visibility:hidden}}
+@keyframes veilIn{from{opacity:0;transform:translateY(12px) scale(.96)}to{opacity:1;transform:none}}
+
+.nav{position:fixed;inset:0 0 auto 0;z-index:100;transition:background-color .35s,box-shadow .35s,backdrop-filter .35s}
+.nav.scrolled{background:var(--glass);backdrop-filter:blur(18px) saturate(1.5);-webkit-backdrop-filter:blur(18px) saturate(1.5);box-shadow:0 1px 0 var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:76px;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand svg{width:34px;height:34px;color:var(--primary);flex:none}.brand span{white-space:nowrap}
+.brand b{display:block;font-family:var(--serif);font-weight:500;font-size:1.4rem;letter-spacing:-.02em;line-height:1}
+.brand small{display:block;font-size:.72rem;color:var(--muted);letter-spacing:.02em;margin-top:3px;line-height:1}
+.links{display:flex;gap:6px}
+.links a{padding:9px 14px;border-radius:999px;text-decoration:none;font-weight:500;font-size:.94rem;color:var(--ink-2);transition:background-color .25s,color .25s}
+.links a:hover{background:var(--tint);color:var(--ink)}
+.nav-cta{display:flex;align-items:center;gap:12px}
+.mine{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:var(--tint);border:1px solid var(--line);font-size:.85rem;font-weight:600;color:var(--ink);cursor:pointer;animation:pop .5s var(--ease)}
+.mine .ic{width:16px;height:16px;color:var(--primary)}
+.burger{display:none;width:48px;height:48px;border-radius:50%;border:1px solid var(--line-strong);background:var(--surface);cursor:pointer;position:relative;color:var(--ink)}
+.burger i{position:absolute;left:14px;right:14px;height:2px;border-radius:2px;background:currentColor;transition:transform .35s var(--ease),top .35s var(--ease),opacity .2s}
+.burger i:nth-child(1){top:18px}.burger i:nth-child(2){top:28px}
+.burger[aria-expanded="true"] i:nth-child(1){top:23px;transform:rotate(45deg)}
+.burger[aria-expanded="true"] i:nth-child(2){top:23px;transform:rotate(-45deg)}
+.mnav{position:fixed;inset:0;z-index:99;background:var(--bg);padding:104px 1.5rem 2rem;display:flex;flex-direction:column;gap:6px;visibility:hidden;opacity:0;transform:translateY(-12px);transition:opacity .35s,transform .45s var(--ease),visibility 0s .45s;overflow-y:auto}
+.mnav.open{visibility:visible;opacity:1;transform:none;transition:opacity .35s,transform .45s var(--ease)}
+.mnav a.ml{font-family:var(--serif);font-size:2rem;letter-spacing:-.02em;text-decoration:none;padding:10px 0;border-bottom:1px solid var(--line);opacity:0;transform:translateY(14px);transition:opacity .5s var(--ease),transform .6s var(--ease)}
+.mnav.open a.ml{opacity:1;transform:none;transition-delay:calc(var(--i)*.05s + .1s)}
+.mnav .btn{margin-top:22px}
+.fab{position:fixed;z-index:90;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));translate:-50% 90px;opacity:0;transition:translate .5s var(--ease),opacity .3s;display:none;box-shadow:var(--shadow-md)}
+.fab.show{translate:-50% 0;opacity:1}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:clamp(7rem,12vw,9.5rem) 0 clamp(3.5rem,7vw,6rem);--intro:1.1s;overflow:clip}
+.hero-bg{position:absolute;inset:0;pointer-events:none;z-index:0}
+.hero-bg::before{content:"";position:absolute;width:70vw;max-width:900px;aspect-ratio:1;right:-18vw;top:-22vw;border-radius:50%;background:radial-gradient(circle,var(--tint-2),transparent 66%)}
+.hero-bg::after{content:"";position:absolute;width:50vw;max-width:640px;aspect-ratio:1;left:-20vw;bottom:-18vw;border-radius:50%;background:radial-gradient(circle,var(--sky),transparent 68%);opacity:.55}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.status{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow-sm);font-size:.88rem;font-weight:600;color:var(--ink-2)}
+.dot{width:9px;height:9px;border-radius:50%;background:#28B47C;animation:pulse 2s ease-out infinite;flex:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(40,180,124,.5)}100%{box-shadow:0 0 0 11px rgba(40,180,124,0)}}
+.hero h1{font-size:clamp(2.7rem,5.3vw,4.5rem);line-height:1.02;margin:26px 0 22px;letter-spacing:-.03em;font-weight:380}
+.ln{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
+.ln>span{display:block;transform:translateY(112%);animation:lineUp 1.1s var(--ease) forwards;animation-delay:calc(var(--intro) + var(--i,0)*.13s)}
+@keyframes lineUp{to{transform:none}}
+.lede{font-size:clamp(1.05rem,1.5vw,1.2rem);color:var(--ink-2);max-width:46ch}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.trust{display:flex;align-items:center;gap:16px;margin-top:40px;color:var(--ink-2);font-size:.92rem}
+.avatars{display:flex}
+.avatars i{width:38px;height:38px;border-radius:50%;border:3px solid var(--bg);margin-left:-10px;background:linear-gradient(135deg,var(--g1),var(--g2))}
+.avatars i:first-child{margin-left:0}
+.stars{display:flex;gap:2px;color:#E6A93A}
+.stars svg{width:16px;height:16px}
+.trust b{color:var(--ink)}
+.rise{opacity:0;translate:0 28px;animation:rise .95s var(--ease) forwards;animation-delay:calc(var(--intro) + var(--d,0s))}
+@keyframes rise{to{opacity:1;translate:0 0}}
+
+.hv{position:relative;width:100%;max-width:560px;margin-inline:auto;aspect-ratio:1/1.1}
+.hv-arch{position:absolute;inset:3% 9% 0;border-radius:999px 999px 42px 42px;background:linear-gradient(175deg,var(--tint) 0%,var(--sky) 58%,var(--tint-2) 100%);box-shadow:inset 0 0 0 1px var(--glass-line),var(--shadow-lg);overflow:hidden;clip-path:inset(100% 0 0 0 round 999px 999px 42px 42px);animation:archIn 1.3s var(--ease) calc(var(--intro) - .1s) forwards}
+@keyframes archIn{to{clip-path:inset(0 0 0 0 round 999px 999px 42px 42px)}}
+.hv-arch::before{content:"";position:absolute;inset:6.5%;border-radius:999px 999px 30px 30px;border:1px solid color-mix(in srgb,var(--primary) 24%,transparent)}
+.hv-arch::after{content:"";position:absolute;width:76%;aspect-ratio:1;left:12%;top:9%;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 68%)}
+.ring{position:absolute;left:50%;top:32%;translate:-50% -50%;aspect-ratio:1;border-radius:50%;border:1px dashed color-mix(in srgb,var(--primary) 34%,transparent);animation:spin 46s linear infinite;opacity:0;animation-fill-mode:both}
+.ring.r1{width:62%}.ring.r2{width:82%;animation-duration:70s;animation-direction:reverse;border-style:solid;border-color:color-mix(in srgb,var(--primary) 14%,transparent)}
+.ring::before{content:"";position:absolute;top:-6px;left:50%;margin-left:-6px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 22%,transparent)}
+.ring.r2::before{top:auto;bottom:12%;left:6%;width:9px;height:9px;background:var(--accent-2);box-shadow:none}
+@keyframes spin{from{rotate:0deg;opacity:1}to{rotate:360deg;opacity:1}}
+.hv-tooth{position:absolute;left:0;right:0;margin-inline:auto;top:7%;width:46%;filter:drop-shadow(0 22px 22px rgba(11,52,57,.30)) drop-shadow(0 0 1px rgba(14,124,121,.5));animation:rise 1s var(--ease) calc(var(--intro) + .25s) both,floaty 8s ease-in-out calc(var(--intro) + 1.4s) infinite}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.spark{position:absolute;color:var(--accent-2);animation:twinkle 3.4s ease-in-out infinite;opacity:0}
+.spark.s1{width:26px;left:24%;top:16%}.spark.s2{width:16px;right:20%;top:24%;animation-delay:1.1s;color:var(--accent)}.spark.s3{width:20px;left:24%;top:52%;animation-delay:2s}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4) rotate(0)}50%{opacity:1;transform:scale(1) rotate(45deg)}}
+.glass{background:var(--glass);backdrop-filter:blur(18px) saturate(1.5);-webkit-backdrop-filter:blur(18px) saturate(1.5);border:1px solid var(--glass-line);border-radius:22px;box-shadow:var(--shadow-md)}
+.hv-card{position:absolute;animation:rise .95s var(--ease) both,floaty 7s ease-in-out infinite;animation-delay:calc(var(--intro) + var(--d,0s)),calc(var(--intro) + var(--d,0s) + 1s)}
+.card-book{left:-4%;bottom:1%;width:60%;padding:18px 18px 16px}
+.card-book .live{display:flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;color:var(--ink-2)}
+.card-book h3{font-size:1.18rem;margin:8px 0 12px;line-height:1.2}
+.hslots{display:grid;gap:7px}
+.hslot{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;padding:11px 14px;border-radius:14px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 78%,transparent);color:var(--ink);font-size:.88rem;cursor:pointer;transition:transform .3s var(--ease),background-color .25s,border-color .25s;text-align:left}
+.hslot span{color:var(--muted);font-weight:500}.hslot b{font-weight:700}
+.hslot:hover{transform:translateX(4px);background:var(--surface);border-color:var(--primary)}
+.card-book .all{margin-top:12px;background:none;border:0;color:var(--primary);font-weight:700;font-size:.88rem;cursor:pointer;padding:6px 2px}
+.card-rating{right:-2%;top:9%;padding:14px 18px;display:flex;align-items:center;gap:14px;--d:.15s}
+.card-rating .big{font-family:var(--serif);font-size:2rem;line-height:1}
+.card-rating small{display:block;color:var(--ink-2);font-size:.78rem;margin-top:3px}
+.hv-chip{right:-4%;bottom:20%;padding:10px 16px 10px 10px;display:flex;align-items:center;gap:12px;--d:1.4s;animation:rise .9s var(--ease) both,floaty 9s ease-in-out infinite;animation-delay:calc(var(--intro) + 1.4s),calc(var(--intro) + 2.6s)}
+.hv-chip .okc{width:34px;height:34px;border-radius:50%;background:#28B47C;color:#fff;display:grid;place-items:center}
+.hv-chip .okc svg{width:18px;height:18px}
+.hv-chip b{display:block;font-size:.84rem;line-height:1.25}.hv-chip small{color:var(--ink-2);font-size:.76rem}
+
+/* ---------- Sections ---------- */
+.sec{padding:clamp(4.5rem,9vw,7.5rem) 0}
+.sec.alt{background:var(--bg-soft)}
+.sec-head{max-width:760px;margin-bottom:clamp(2.2rem,4.5vw,3.6rem)}
+.sec-head.split{max-width:none;display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(1.5rem,5vw,4rem);align-items:end}
+.h2{font-size:clamp(2.05rem,3.9vw,3.3rem)}
+.sec-head p{color:var(--ink-2);font-size:1.1rem;max-width:56ch}
+.sec-head .h2+p{margin-top:18px}
+.sec-head.split .h2+p{margin-top:0}
+[data-split] .w{display:inline-block;overflow:hidden;vertical-align:top;padding:.06em 0 .16em;margin:-.06em 0 -.16em}
+.js [data-split] .w>span{display:inline-block;transform:translateY(108%);transition:transform .9s var(--ease)}
+.js [data-split].in .w>span{transform:none}
+.js [data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .85s var(--ease),transform .95s var(--ease);transition-delay:var(--d,0s)}
+.js [data-reveal="fade"]{transform:none}
+.js [data-reveal="scale"]{transform:scale(.965)}
+.js [data-reveal].in{opacity:1;transform:none}
+
+/* Why */
+.why{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(2rem,6vw,5.5rem);align-items:start}
+.stats{margin-top:clamp(1.8rem,3vw,2.6rem);background:linear-gradient(160deg,var(--deep-2),var(--deep));color:var(--on-deep);border-radius:var(--r);padding:clamp(24px,3vw,36px);display:grid;grid-template-columns:1fr 1fr;gap:30px 24px;position:relative;overflow:hidden}
+.stats::after{content:"";position:absolute;right:-60px;top:-60px;width:190px;height:190px;border-radius:50%;border:1px solid rgba(255,255,255,.12);box-shadow:0 0 0 26px rgba(255,255,255,.03)}
+.stat b{display:block;font-family:var(--serif);font-weight:400;font-size:clamp(2.3rem,4vw,3.3rem);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.stat span{display:block;margin-top:8px;font-size:.9rem;color:var(--on-deep-muted);line-height:1.4}
+.feats{display:grid}
+.feat{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:26px 0;border-bottom:1px solid var(--line);transition:transform .4s var(--ease)}
+.feat:first-child{padding-top:4px}.feat:last-child{border-bottom:0}
+.feat:hover{transform:translateX(6px)}
+.feat .fi{width:56px;height:56px;border-radius:18px;background:var(--tint);color:var(--primary);display:grid;place-items:center;transition:background-color .3s,color .3s}
+.feat:hover .fi{background:var(--primary);color:var(--on-primary)}
+.feat .fi [data-ic]{width:26px;height:26px}
+.feat h3{font-size:1.4rem;margin-bottom:6px}
+.feat p{color:var(--ink-2);max-width:46ch}
+
+/* Services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.svc{position:relative;display:flex;flex-direction:column;gap:14px;padding:30px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .3s}
+.svc:hover{transform:translateY(-7px);box-shadow:var(--shadow-md);border-color:transparent}
+.svc .ico{width:54px;height:54px;border-radius:17px;background:var(--tint);color:var(--primary);display:grid;place-items:center;transition:background-color .3s,color .3s,transform .5s var(--ease)}
+.svc:hover .ico{background:var(--primary);color:var(--on-primary);transform:rotate(-6deg) scale(1.05)}
+.svc .ico [data-ic]{width:26px;height:26px}
+.svc h3{font-size:1.5rem}
+.svc p{color:var(--ink-2);max-width:40ch}
+.svc .meta{margin-top:auto;padding-top:10px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:.86rem;color:var(--muted);font-weight:600}
+.svc .go{background:none;border:0;padding:8px 0;color:var(--primary);font-weight:700;font-size:.92rem;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.svc .go svg{width:16px;height:16px;transition:transform .35s var(--ease)}
+.svc:hover .go svg{transform:translateX(4px)}
+.svc.wide{grid-column:span 2;background:linear-gradient(135deg,var(--tint),var(--sky));border-color:transparent;overflow:hidden}
+.svc.wide::after{content:"";position:absolute;right:-70px;bottom:-90px;width:260px;height:260px;border-radius:50%;border:1px solid color-mix(in srgb,var(--primary) 24%,transparent);box-shadow:0 0 0 30px color-mix(in srgb,var(--primary) 6%,transparent)}
+.svc.wide .ico{background:var(--surface)}
+.svc.urgent{background:var(--deep);color:var(--on-deep);border-color:transparent}
+.svc.urgent p{color:var(--on-deep-muted)}
+.svc.urgent .ico{background:rgba(255,255,255,.1);color:#fff}
+.svc.urgent:hover .ico{background:#fff;color:var(--deep)}
+.svc.urgent .go{color:#fff}
+.note{margin-top:28px;color:var(--ink-2);font-size:.95rem;display:flex;align-items:center;gap:10px}
+.note [data-ic]{width:20px;height:20px;color:var(--primary)}
+
+/* Dentists */
+.den-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.den{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 12px 22px;transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.den:hover{transform:translateY(-7px);box-shadow:var(--shadow-md)}
+.portrait{position:relative;aspect-ratio:1/1.12;border-radius:999px 999px 18px 18px;background:linear-gradient(160deg,var(--g1),var(--g2));display:grid;place-items:center;overflow:hidden}
+.portrait::before{content:"";position:absolute;inset:9%;border-radius:999px 999px 10px 10px;border:1px solid rgba(255,255,255,.3)}
+.portrait::after{content:"";position:absolute;width:70%;aspect-ratio:1;border-radius:50%;left:15%;top:8%;background:radial-gradient(circle,rgba(255,255,255,.28),transparent 68%)}
+.portrait span{position:relative;z-index:1;font-family:var(--serif);font-size:clamp(2.8rem,4.6vw,3.8rem);letter-spacing:-.03em;color:#fff;transition:transform .6s var(--ease)}
+.den:hover .portrait span{transform:scale(1.08)}
+.den .body{padding:18px 10px 0;display:flex;flex-direction:column;gap:4px;flex:1}
+.den h3{font-size:1.32rem}
+.den .role{font-weight:600;font-size:.88rem;color:var(--primary)}
+.den p.bio{color:var(--ink-2);font-size:.92rem;margin-top:6px}
+.den .next{margin:14px 0 14px;display:flex;align-items:center;gap:9px;font-size:.84rem;color:var(--ink-2);font-weight:500;padding:9px 12px;border-radius:12px;background:var(--bg-soft)}
+.den .btn{margin-top:auto;width:100%}
+
+/* How it works */
+.hsteps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px;counter-reset:st}
+.hstep{position:relative}
+.hbadge{position:relative;z-index:1;width:58px;height:58px;border-radius:50%;background:var(--surface);border:1.5px solid var(--line-strong);display:grid;place-items:center;font-family:var(--serif);font-size:1.45rem;transition:background-color .5s,color .5s,border-color .5s}
+.hstep::after{content:"";position:absolute;top:28px;left:68px;right:-22px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--line-strong));transform:scaleX(0);transform-origin:left;transition:transform 1.1s var(--ease)}
+.hstep:last-child::after{display:none}
+.hsteps.in .hstep::after{transform:scaleX(1);transition-delay:calc(var(--i)*.3s + .35s)}
+.hsteps.in .hbadge{background:var(--primary);color:var(--on-primary);border-color:transparent;transition-delay:calc(var(--i)*.3s)}
+.hstep h3{font-size:1.32rem;margin:22px 0 8px}
+.hstep p{color:var(--ink-2);font-size:.98rem;max-width:30ch}
+.assure{margin-top:clamp(2.6rem,5vw,4rem);display:grid;grid-template-columns:repeat(3,1fr) auto;gap:18px;align-items:center;padding:22px 26px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+.assure div{display:flex;align-items:center;gap:14px;font-weight:600;font-size:.95rem}
+.assure div [data-ic]{width:38px;height:38px;padding:9px;border-radius:12px;background:var(--tint);color:var(--primary);flex:none}
+.assure small{display:block;font-weight:500;color:var(--ink-2);font-size:.83rem;line-height:1.35;margin-top:1px}
+
+/* Reviews */
+.rev{display:grid;grid-template-columns:.62fr 1.38fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.score{font-family:var(--serif);font-size:clamp(4.5rem,9vw,7rem);line-height:.9;letter-spacing:-.04em}
+.score-meta{margin-top:16px;color:var(--ink-2)}
+.score-meta .stars{margin-bottom:8px}.score-meta .stars svg{width:20px;height:20px}
+.rev-ctl{display:flex;gap:10px;margin-top:26px}
+.cbtn{width:50px;height:50px;border-radius:50%;border:1.5px solid var(--line-strong);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:background-color .25s,transform .3s var(--ease),border-color .25s}
+.cbtn:hover:not(:disabled){background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+.cbtn:disabled{opacity:.35;cursor:not-allowed}
+.cbtn svg{width:22px;height:22px}
+.track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:8px 4px 24px;margin:-8px -4px -24px}
+.track::-webkit-scrollbar{display:none}
+.review{flex:0 0 min(400px,86%);scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:30px;display:flex;flex-direction:column;gap:20px;transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+.review:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+.review blockquote{margin:0;font-family:var(--serif);font-size:1.28rem;line-height:1.4;letter-spacing:-.012em}
+.review footer{margin-top:auto;display:flex;align-items:center;gap:14px}
+.review .av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:.95rem;background:linear-gradient(135deg,var(--g1),var(--g2))}
+.review footer b{display:block;font-size:.95rem;line-height:1.2}.review footer small{color:var(--muted);font-size:.83rem}
+
+/* Visit */
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,4vw,3rem);align-items:stretch}
+.info{display:grid;gap:26px;align-content:start}
+.rows{display:grid;gap:18px}
+.row{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start}
+.row [data-ic]{width:44px;height:44px;padding:11px;border-radius:14px;background:var(--tint);color:var(--primary)}
+.row b{display:block;font-size:.95rem}.row span,.row a{color:var(--ink-2);text-decoration:none}
+.row a:hover{color:var(--primary)}
+.hours{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:8px 24px}
+.hours-h{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 0 8px}
+.hours-h h3{font-size:1.25rem}
+.open{display:inline-flex;align-items:center;gap:8px;font-size:.84rem;font-weight:600;color:var(--ink-2)}
+.open i{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.open.yes i{background:#28B47C;animation:pulse 2s ease-out infinite}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px 0;text-align:left;font-weight:500;border-top:1px solid var(--line);font-size:.95rem}
+td{text-align:right;color:var(--ink-2);font-variant-numeric:tabular-nums}
+tr.today th,tr.today td{color:var(--primary);font-weight:700}
+.map{position:relative;border-radius:var(--r);overflow:hidden;min-height:440px;background:var(--tint);border:1px solid var(--line)}
+.map svg.bgmap{position:absolute;inset:0;width:100%;height:100%}
+.pin{position:absolute;left:52%;top:46%;translate:-50% -100%}
+.pin::after{content:"";position:absolute;left:50%;bottom:-6px;width:60px;height:60px;translate:-50% 50%;border-radius:50%;background:color-mix(in srgb,var(--primary) 26%,transparent);animation:ping 2.6s ease-out infinite;z-index:-1}
+@keyframes ping{0%{scale:.3;opacity:.9}100%{scale:1.6;opacity:0}}
+.pin svg{width:54px;height:54px;color:var(--primary);filter:drop-shadow(0 10px 10px rgba(11,52,57,.3))}
+.maplabel{position:absolute;left:18px;bottom:18px;right:18px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.maplabel b{display:block;font-family:var(--serif);font-size:1.15rem;font-weight:500}.maplabel small{color:var(--ink-2)}
+
+/* CTA + footer */
+.cta{padding:clamp(3rem,6vw,5rem) 0 clamp(4.5rem,8vw,7rem)}
+.cta-panel{position:relative;overflow:hidden;border-radius:calc(var(--r) + 14px);padding:clamp(2.6rem,7vw,5.5rem) clamp(1.6rem,6vw,5rem);background:radial-gradient(90% 120% at 100% 0%,#1B7E7C 0%,transparent 55%),linear-gradient(150deg,var(--deep-2),var(--deep));color:var(--on-deep);display:grid;grid-template-columns:1.3fr .7fr;gap:2.5rem;align-items:center}
+.cta-panel::before{content:"";position:absolute;right:-8%;bottom:-40%;width:52%;aspect-ratio:1/1.1;border-radius:999px 999px 0 0;border:1px solid rgba(255,255,255,.16);box-shadow:0 0 0 30px rgba(255,255,255,.035),0 0 0 62px rgba(255,255,255,.025)}
+.cta-panel>*{position:relative}
+.cta h2{font-size:clamp(2.2rem,4.6vw,3.8rem);letter-spacing:-.03em}
+.cta p{color:var(--on-deep-muted);margin-top:18px;max-width:46ch;font-size:1.08rem}
+.cta .acts{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.cta .acts a.tel{color:var(--on-deep);text-decoration:none;font-weight:600;padding:6px 4px}
+.cta .acts a.tel:hover{text-decoration:underline}
+footer.foot{background:var(--deep);color:var(--on-deep);padding:clamp(3rem,6vw,4.5rem) 0 2rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2.5rem}
+.foot .brand{color:var(--on-deep)}.foot .brand svg{color:var(--accent)}.foot .brand small{color:var(--on-deep-muted)}
+.foot p{color:var(--on-deep-muted);font-size:.94rem;max-width:34ch;margin-top:18px}
+.foot h4{font-family:var(--sans);font-size:.92rem;font-weight:700;margin-bottom:14px}
+.foot li{margin-bottom:8px}
+.foot li a,.foot li span{color:var(--on-deep-muted);text-decoration:none;font-size:.94rem}
+.foot li a:hover{color:#fff}
+.foot-base{margin-top:3rem;padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--on-deep-muted);font-size:.86rem}
+
+/* ---------- Booking modal ---------- */
+.bk{position:fixed;inset:0;z-index:250;display:grid;place-items:center;padding:24px}
+.bk-backdrop{position:absolute;inset:0;background:rgba(6,26,29,.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);opacity:0;transition:opacity .4s}
+.bk.open .bk-backdrop{opacity:1}
+.bk-panel{position:relative;width:min(1060px,100%);height:min(740px,100%);display:grid;grid-template-columns:304px minmax(0,1fr);grid-template-rows:minmax(0,1fr);background:var(--surface);border-radius:34px;overflow:hidden;box-shadow:var(--shadow-lg);transform:translateY(28px) scale(.97);opacity:0;transition:transform .55s var(--ease),opacity .35s}
+.bk.open .bk-panel{transform:none;opacity:1}
+.bk-side{position:relative;overflow:hidden;background:linear-gradient(165deg,var(--deep-2),var(--deep));color:var(--on-deep);padding:34px 30px;display:flex;flex-direction:column;gap:30px}
+.bk-side::after{content:"";position:absolute;left:-70px;bottom:-110px;width:280px;height:340px;border-radius:999px 999px 0 0;border:1px solid rgba(255,255,255,.12);box-shadow:0 0 0 24px rgba(255,255,255,.03)}
+.bk-side .brand{color:var(--on-deep)}.bk-side .brand svg{color:var(--accent)}.bk-side .brand small{color:var(--on-deep-muted)}
+.stepper{display:grid;gap:4px;position:relative;z-index:1}
+.st{display:flex;align-items:center;gap:14px;padding:9px 0;color:var(--on-deep-muted);font-weight:500;font-size:.95rem;transition:color .3s}
+.stn{width:30px;height:30px;border-radius:50%;border:1.5px solid rgba(255,255,255,.28);display:grid;place-items:center;font-size:.8rem;font-weight:700;flex:none;transition:all .4s var(--ease)}
+.stn svg{width:14px;height:14px}
+.st.active{color:#fff;font-weight:700}.st.active .stn{background:#fff;color:var(--deep);border-color:#fff}
+.st.is-done{color:var(--on-deep)}.st.is-done .stn{background:var(--accent);border-color:var(--accent);color:var(--deep)}
+.summary{position:relative;z-index:1;margin-top:auto;padding:18px;border-radius:20px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);display:grid;gap:12px;font-size:.88rem}
+.summary h4{font-family:var(--sans);font-size:.78rem;font-weight:700;color:var(--on-deep-muted);letter-spacing:.02em}
+.sum-row b{display:block;font-weight:600;line-height:1.3}.sum-row span{color:var(--on-deep-muted);font-size:.82rem}
+.sum-row.sum-empty b{color:var(--on-deep-muted);font-weight:500}
+.bk-main{position:relative;display:flex;flex-direction:column;min-width:0;min-height:0}
+.bk-top{position:absolute;top:20px;right:20px;z-index:4;display:flex;align-items:center}
+.bk-close{width:44px;height:44px;border-radius:50%;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:transform .35s var(--ease),background-color .25s}
+.bk-close:hover{background:var(--tint);transform:rotate(90deg)}
+.bk-close svg{width:20px;height:20px}
+.bk-mob{display:none}
+.bk-body{flex:1;min-height:0;overflow-y:auto;padding:38px 42px 16px;scroll-behavior:auto}
+.bk-body.in-fwd{animation:stepInF .5s var(--ease) both}
+.bk-body.in-back{animation:stepInB .5s var(--ease) both}
+.bk-body.out-fwd{animation:stepOutF .17s ease-in both}
+.bk-body.out-back{animation:stepOutB .17s ease-in both}
+@keyframes stepInF{from{opacity:0;transform:translateX(34px)}to{opacity:1;transform:none}}
+@keyframes stepInB{from{opacity:0;transform:translateX(-34px)}to{opacity:1;transform:none}}
+@keyframes stepOutF{to{opacity:0;transform:translateX(-22px)}}
+@keyframes stepOutB{to{opacity:0;transform:translateX(22px)}}
+.bk-h{font-size:clamp(1.8rem,3vw,2.35rem);margin-bottom:8px;padding-right:56px}
+.bk-h:focus{outline:none}
+.bk-sub{color:var(--ink-2);margin-bottom:26px;max-width:56ch}
+.bk-foot{display:flex;align-items:center;gap:14px;padding:16px 42px 22px;border-top:1px solid var(--line);background:var(--surface)}
+.bk-hint{flex:1;font-size:.88rem;color:var(--muted);min-height:1.3em}
+.spin{width:18px;height:18px;border-radius:50%;border:2.5px solid color-mix(in srgb,currentColor 30%,transparent);border-top-color:currentColor;animation:rot .7s linear infinite}
+@keyframes rot{to{rotate:360deg}}
+.opt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.opt{position:relative;display:block;cursor:pointer}
+.opt input{position:absolute;opacity:0;inset:0;pointer-events:none}
+.opt-in{position:relative;display:flex;gap:14px;align-items:flex-start;height:100%;padding:16px;border:1.5px solid var(--line-strong);border-radius:20px;background:var(--surface);transition:transform .35s var(--ease),border-color .25s,background-color .25s,box-shadow .35s}
+.opt:hover .opt-in{transform:translateY(-3px);border-color:var(--primary);box-shadow:var(--shadow-sm)}
+.opt:active .opt-in{transform:scale(.985)}
+.opt input:checked+.opt-in{border-color:var(--primary);background:var(--tint);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 18%,transparent)}
+.opt input:focus-visible+.opt-in{outline:3px solid var(--primary);outline-offset:2px}
+.opt.is-off{cursor:not-allowed;opacity:.5}.opt.is-off:hover .opt-in{transform:none;border-color:var(--line-strong);box-shadow:none}
+.opt-ic{width:46px;height:46px;border-radius:14px;background:var(--tint);color:var(--primary);display:grid;place-items:center;flex:none;transition:background-color .3s,color .3s}
+.opt-ic svg{width:24px;height:24px}
+.opt input:checked+.opt-in .opt-ic{background:var(--primary);color:var(--on-primary)}
+.opt-tx{min-width:0;padding-right:24px}
+.opt-tx b{display:block;font-size:.98rem;line-height:1.3}
+.opt-tx small{display:block;color:var(--ink-2);font-size:.84rem;line-height:1.4;margin-top:3px}
+.opt-tx em{display:block;font-style:normal;font-size:.78rem;font-weight:600;color:var(--muted);margin-top:8px}
+.opt-check{position:absolute;top:12px;right:12px;width:22px;height:22px;border-radius:50%;background:var(--primary);color:var(--on-primary);display:grid;place-items:center;scale:0;transition:scale .4s var(--ease)}
+.opt-check svg{width:13px;height:13px}
+.opt input:checked+.opt-in .opt-check{scale:1}
+.mono{width:52px;height:60px;border-radius:999px 999px 12px 12px;background:linear-gradient(160deg,var(--g1),var(--g2));color:#fff;display:grid;place-items:center;font-family:var(--serif);font-size:1.25rem;flex:none}
+.opt-any .opt-ic{border-radius:999px 999px 14px 14px;width:52px;height:60px}
+.time-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);gap:30px;align-items:start}
+.cal-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.cal-h h3{font-size:1.3rem}
+.cal-nav{display:flex;gap:6px}
+.cal-nav button{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:background-color .25s}
+.cal-nav button:hover:not(:disabled){background:var(--tint)}.cal-nav button:disabled{opacity:.35;cursor:not-allowed}
+.cal-nav svg{width:18px;height:18px}
+.cal-wd,.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal-wd span{text-align:center;font-size:.76rem;font-weight:600;color:var(--muted);padding:6px 0}
+.cal-pad{aspect-ratio:1}
+.day{position:relative;aspect-ratio:1;border:0;border-radius:14px;background:transparent;color:var(--ink);font-size:.95rem;font-weight:600;cursor:pointer;display:grid;place-items:center;transition:background-color .2s,transform .3s var(--ease),color .2s}
+.day i{position:absolute;bottom:6px;left:50%;margin-left:-2px;width:4px;height:4px;border-radius:50%;background:transparent}
+.day.ok i{background:var(--accent)}.day.few i{background:var(--warn)}
+.day.none{color:var(--muted);opacity:.7}
+.day:disabled{opacity:.28;cursor:not-allowed}
+.day:hover:not(:disabled):not([aria-pressed="true"]){background:var(--tint);transform:translateY(-2px)}
+.day.today{box-shadow:inset 0 0 0 1.5px var(--line-strong)}
+.day[aria-pressed="true"]{background:var(--primary);color:var(--on-primary);opacity:1;box-shadow:0 10px 18px -8px var(--primary)}
+.day[aria-pressed="true"] i{background:var(--on-primary)}
+.legend{display:flex;gap:16px;margin-top:12px;font-size:.78rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:7px}.legend i{width:8px;height:8px;border-radius:50%}
+.slots-head h3{font-size:1.3rem}.slots-head p{font-size:.86rem;color:var(--ink-2);margin:2px 0 14px}
+.grp{margin-bottom:16px}.grp h4{font-family:var(--sans);font-size:.78rem;font-weight:700;color:var(--muted);margin-bottom:8px;letter-spacing:.02em}
+.slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.slot{min-height:44px;border-radius:12px;border:1.5px solid var(--line-strong);background:var(--surface);color:var(--ink);font-size:.88rem;font-weight:600;cursor:pointer;transition:transform .3s var(--ease),background-color .2s,border-color .2s;white-space:nowrap}
+.slot:hover:not(:disabled):not([aria-pressed="true"]){transform:translateY(-2px);border-color:var(--primary);background:var(--tint)}
+.slot:active:not(:disabled){scale:.96}
+.slot[aria-pressed="true"]{background:var(--primary);color:var(--on-primary);border-color:var(--primary);box-shadow:0 10px 18px -10px var(--primary)}
+.slot:disabled{border-style:dashed;color:var(--muted);text-decoration:line-through;background:transparent;opacity:.5;cursor:not-allowed}
+.skel{height:44px;border-radius:12px;background:linear-gradient(90deg,var(--tint) 25%,var(--tint-2) 50%,var(--tint) 75%);background-size:200% 100%;animation:shimmer 1.1s linear infinite}
+@keyframes shimmer{to{background-position:-200% 0}}
+.empty{display:grid;justify-items:start;gap:12px;padding:22px;border-radius:20px;background:var(--bg-soft);border:1px dashed var(--line-strong)}
+.empty .ei{width:44px;height:44px;border-radius:14px;background:var(--tint);color:var(--primary);display:grid;place-items:center}
+.empty .ei svg{width:22px;height:22px}
+.empty b{font-size:1rem;line-height:1.3}.empty p{color:var(--ink-2);font-size:.92rem}
+.chip-link{display:inline-flex;align-items:center;gap:8px;margin:-10px 0 20px;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-soft);color:var(--ink);font-size:.85rem;font-weight:600;cursor:pointer;transition:background-color .25s,border-color .25s}
+.chip-link:hover{background:var(--tint);border-color:var(--primary)}.chip-link svg{width:16px;height:16px;color:var(--primary)}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:18px 16px;max-width:640px}
+.field{display:grid;gap:7px;align-content:start}.field.full{grid-column:1/-1}
+.field label,.field legend{font-size:.9rem;font-weight:600;padding:0}
+.field label small{font-weight:500;color:var(--muted)}
+.input{width:100%;min-height:54px;padding:0 18px;border-radius:16px;border:1.5px solid var(--line-strong);background:var(--surface);color:var(--ink);font:inherit;font-size:1rem;transition:border-color .2s,box-shadow .25s}
+textarea.input{padding:14px 18px;min-height:104px;resize:vertical;line-height:1.5}
+.input::placeholder{color:var(--muted);opacity:.8}
+.input:hover{border-color:var(--ink-2)}
+.input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 4px color-mix(in srgb,var(--primary) 18%,transparent)}
+.input[aria-invalid="true"]{border-color:var(--danger);box-shadow:0 0 0 4px color-mix(in srgb,var(--danger) 12%,transparent)}
+.err{display:flex;gap:7px;align-items:flex-start;color:var(--danger);font-size:.84rem;font-weight:500;line-height:1.35}
+.err:empty{display:none}.err svg{width:16px;height:16px;flex:none;margin-top:1px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;border:0;padding:0;margin:0}
+.seg label{position:relative;cursor:pointer}.seg input{position:absolute;opacity:0;inset:0}
+.seg span{display:grid;place-items:center;min-height:54px;border-radius:16px;border:1.5px solid var(--line-strong);font-weight:600;font-size:.95rem;transition:all .25s}
+.seg label:hover span{border-color:var(--primary)}
+.seg input:checked+span{background:var(--tint);border-color:var(--primary);color:var(--ink);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 16%,transparent)}
+.seg input:focus-visible+span{outline:3px solid var(--primary);outline-offset:2px}
+.count{font-size:.78rem;color:var(--muted);text-align:right}
+.banner{grid-column:1/-1;display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border-radius:16px;background:var(--danger-bg);color:var(--danger);font-size:.92rem;font-weight:500;animation:pop .4s var(--ease)}
+.banner svg{width:20px;height:20px;flex:none;margin-top:1px}
+.privacy{grid-column:1/-1;display:flex;gap:10px;align-items:center;color:var(--ink-2);font-size:.84rem}.privacy svg{width:18px;height:18px;color:var(--primary);flex:none}
+@keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+.done{display:grid;gap:0;justify-items:start;max-width:600px}
+.done-ic{position:relative;width:88px;height:88px;margin-bottom:22px}
+.done-ic::before,.done-ic::after{content:"";position:absolute;inset:0;border-radius:50%;background:color-mix(in srgb,var(--primary) 22%,transparent);animation:ping 2.4s ease-out 1s 2}
+.done-ic::after{animation-delay:1.5s}
+.chk{position:relative;width:88px;height:88px}
+.chk-c,.chk-p{stroke:var(--primary);fill:none;stroke-linecap:round;stroke-linejoin:round}
+.chk-c{stroke-width:3.5;stroke-dasharray:214;stroke-dashoffset:214;animation:draw .8s var(--ease) .1s forwards}
+.chk-p{stroke-width:5;stroke-dasharray:60;stroke-dashoffset:60;animation:draw .5s var(--ease) .75s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.ticket{width:100%;margin:6px 0 24px;border-radius:24px;background:var(--tint);border:1px solid var(--line);overflow:hidden}
+.ticket dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;padding:22px 24px}
+.ticket dt{font-size:.78rem;font-weight:600;color:var(--muted)}.ticket dd{margin:2px 0 0;font-weight:600;line-height:1.35}
+.ticket .ref{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 24px;border-top:1.5px dashed var(--line-strong);font-size:.88rem;color:var(--ink-2)}
+.ticket .ref b{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em;color:var(--ink)}
+.done-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:26px}
+.nextlist{display:grid;gap:12px;color:var(--ink-2);font-size:.94rem}
+.nextlist li{display:flex;gap:12px;align-items:flex-start}.nextlist svg{width:20px;height:20px;color:var(--primary);flex:none;margin-top:2px}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1180px){.nav-cta .phone{display:none}.den-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1023px){
+  .links{display:none}.burger{display:block}.mine{display:none}
+  .hero-grid{grid-template-columns:1fr}
+  .hv{max-width:460px}
+  .sec-head.split,.why,.rev,.visit,.cta-panel{grid-template-columns:1fr}
+  .svc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .svc.wide{grid-column:span 2}
+  .hsteps{grid-template-columns:1fr;gap:0}
+  .hstep{display:grid;grid-template-columns:58px 1fr;column-gap:20px;padding-bottom:34px}
+  .hstep h3{margin:4px 0 6px}
+  .hstep::after{top:64px;bottom:6px;left:28px;right:auto;width:2px;height:auto;transform:scaleY(0);transform-origin:top;background:linear-gradient(180deg,var(--accent),var(--line-strong))}
+  .hsteps.in .hstep::after{transform:scaleY(1)}
+  .assure{grid-template-columns:1fr}.assure .btn{width:100%}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .fab{display:inline-flex}
+}
+@media (max-width:820px){
+  .bk{padding:0;place-items:end stretch}
+  .bk-panel{grid-template-columns:1fr;height:calc(100dvh - 10px);width:100%;border-radius:26px 26px 0 0;transform:translateY(60px)}
+  .bk-side{display:none}
+  .bk-top{position:static;padding:14px 16px 0;justify-content:space-between;gap:12px;width:100%}
+  .bk-mob{display:block;flex:1}
+  .bk-mob b{display:block;font-size:.92rem}
+  .bk-mob .segs{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:8px}
+  .bk-mob .segs i{height:4px;border-radius:4px;background:var(--line-strong);transition:background-color .4s}
+  .bk-mob .segs i.on{background:var(--primary)}
+  .bk-body{padding:22px 20px 12px}
+  .bk-foot{padding:14px 20px calc(16px + env(safe-area-inset-bottom))}
+  .bk-h{padding-right:0}
+  .time-grid{grid-template-columns:1fr;gap:22px}
+  .ticket dl{grid-template-columns:1fr 1fr}
+}
+@media (max-width:620px){
+  .nav-cta .btn{display:none}
+  .svc-grid,.den-grid,.opt-grid,.form{grid-template-columns:1fr}
+  .svc.wide{grid-column:auto}
+  .stats{grid-template-columns:1fr 1fr}
+  .cta-row .btn{flex:1 1 100%}
+  .card-book{width:80%;left:-4%;bottom:3%}.card-rating{right:-3%;top:6%;padding:10px 14px}.card-rating .big{font-size:1.5rem}
+  .hv-chip{display:none}
+  .foot-grid{grid-template-columns:1fr}
+  .slots{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .bk-foot .btn{padding:0 1.3rem}
+  .done-actions .btn{flex:1 1 100%}
+  .ticket dl{gap:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .veil{display:none}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.01ms!important;transition-delay:0s!important}
+  .ln>span{transform:none}.rise{opacity:1;translate:none}.hv-arch{clip-path:none}.ring{opacity:1}
+  .hv-card,.hv-tooth{opacity:1}
+  .js [data-reveal],.js [data-split] .w>span{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-mark" viewBox="0 0 32 32"><path d="M5 28V15.5C5 9.7 9.9 5 16 5s11 4.7 11 10.5V28" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M10.5 18.5c1.6 2.7 3.4 3.8 5.5 3.8s3.9-1.1 5.5-3.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="22.5" cy="9.5" r="1.5" fill="currentColor"/></symbol>
+</svg>
+
+<div class="veil" aria-hidden="true"><div class="veil-in"><svg><use href="#i-mark"/></svg><span>Ciora</span></div></div>
+<div class="progress" aria-hidden="true"><i id="progress"></i></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Ciora Dental Care, back to top">
+      <svg aria-hidden="true"><use href="#i-mark"/></svg>
+      <span><b>Ciora</b><small>Dental Care</small></span>
+    </a>
+    <nav class="links" aria-label="Primary">
+      <a href="#why">Why Ciora</a><a href="#services">Services</a><a href="#dentists">Dentists</a><a href="#how">Booking</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a>
+    </nav>
+    <div class="nav-cta">
+      <button type="button" class="mine" id="mine" hidden></button>
+      <button type="button" class="btn btn-primary btn-sm magnetic" data-book>Book an Appointment</button>
+      <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true">
+  <a class="ml" style="--i:0" href="#why">Why Ciora</a>
+  <a class="ml" style="--i:1" href="#services">Services</a>
+  <a class="ml" style="--i:2" href="#dentists">Dentists</a>
+  <a class="ml" style="--i:3" href="#how">How booking works</a>
+  <a class="ml" style="--i:4" href="#reviews">Reviews</a>
+  <a class="ml" style="--i:5" href="#visit">Visit us</a>
+  <button type="button" class="btn btn-primary btn-lg" data-book>Book an Appointment</button>
+</div>
+
+<button type="button" class="btn btn-primary fab" id="fab" data-book>Book an Appointment</button>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="status rise" style="--d:0s"><span class="dot"></span>Appointments open this week</p>
+      <h1 aria-label="Confident Smiles. Exceptional Care."><span class="ln" aria-hidden="true"><span style="--i:0">Confident Smiles.</span></span><span class="ln" aria-hidden="true"><span style="--i:1">Exceptional Care.</span></span></h1>
+      <p class="lede rise" style="--d:.35s">Modern, comfortable, patient-focused dentistry. Unhurried visits, clear plans and a team that listens, with online booking that takes under a minute.</p>
+      <div class="cta-row rise" style="--d:.5s">
+        <button type="button" class="btn btn-primary btn-lg magnetic" data-book>Book an Appointment</button>
+        <a class="btn btn-ghost btn-lg magnetic" href="#services">Explore Our Services</a>
+      </div>
+      <div class="trust rise" style="--d:.65s">
+        <div class="avatars" aria-hidden="true"><i style="--g1:#0E7C79;--g2:#4FC1BA"></i><i style="--g1:#1D6F94;--g2:#6DBBE0"></i><i style="--g1:#2A8E7C;--g2:#7CCBB3"></i><i style="--g1:#4A6FB5;--g2:#8FB0E6"></i></div>
+        <div><div class="stars" id="hero-stars" aria-hidden="true"></div><span><b>4.9 out of 5</b> from 1,860 patient reviews</span></div>
+      </div>
+    </div>
+
+    <div class="hv">
+      <div class="hv-arch" aria-hidden="true"></div>
+      <div class="ring r1" aria-hidden="true"></div><div class="ring r2" aria-hidden="true"></div>
+      <svg class="hv-tooth" viewBox="0 0 200 240" aria-hidden="true">
+        <defs>
+          <linearGradient id="tg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".6" stop-color="#F2F9FC"/><stop offset="1" stop-color="#D4E8F1"/></linearGradient>
+          <linearGradient id="tg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9BD3DC" stop-opacity=".0"/><stop offset="1" stop-color="#7FBFD0" stop-opacity=".35"/></linearGradient>
+        </defs>
+        <path d="M100 26C88 18 66 12 48 22 26 34 22 64 30 92c6 22 14 36 17 60 3 26 5 62 21 66 16 4 20-32 32-32s16 36 32 32c16-4 18-40 21-66 3-24 11-38 17-60 8-28 4-58-18-70-18-10-40-4-52 4z" fill="url(#tg)"/>
+        <path d="M100 26C88 18 66 12 48 22 26 34 22 64 30 92c6 22 14 36 17 60 3 26 5 62 21 66 16 4 20-32 32-32s16 36 32 32c16-4 18-40 21-66 3-24 11-38 17-60 8-28 4-58-18-70-18-10-40-4-52 4z" fill="url(#tg2)"/>
+        <path d="M50 40c-11 9-13 30-8 48" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".95"/>
+        <path d="M60 30c5-3 11-4 17-3" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+      </svg>
+      <svg class="spark s1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 6 6 11 12 12-6 1-11 6-12 12-1-6-6-11-12-12 6-1 11-6 12-12z" fill="currentColor"/></svg>
+      <svg class="spark s2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 6 6 11 12 12-6 1-11 6-12 12-1-6-6-11-12-12 6-1 11-6 12-12z" fill="currentColor"/></svg>
+      <svg class="spark s3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 6 6 11 12 12-6 1-11 6-12 12-1-6-6-11-12-12 6-1 11-6 12-12z" fill="currentColor"/></svg>
+
+      <div class="hv-card glass hv-chip" aria-hidden="true">
+        <span class="okc" data-ic="check"></span>
+        <div><b>Appointment confirmed</b><small id="chip-when">See you soon</small></div>
+      </div>
+      <div class="hv-card glass card-rating" aria-label="Rated 4.9 out of 5">
+        <span class="big">4.9</span>
+        <div><div class="stars" id="card-stars" aria-hidden="true"></div><small>1,860 reviews</small></div>
+      </div>
+      <div class="hv-card glass card-book" style="--d:.3s">
+        <div class="live"><span class="dot"></span>Live availability</div>
+        <h3>Book your visit in under a minute</h3>
+        <div class="hslots" id="hero-slots"></div>
+        <button type="button" class="all" data-book>See all times</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="sec" id="why">
+  <div class="wrap why">
+    <div>
+      <h2 class="h2" data-split>Dentistry that respects your time and your nerves.</h2>
+      <p style="margin-top:18px;color:var(--ink-2);font-size:1.1rem;max-width:50ch" data-reveal>We designed every part of the visit, from booking to aftercare, to feel simple, calm and clear.</p>
+      <div class="stats" data-reveal="scale" id="stats">
+        <div class="stat"><b data-count="12400" data-suffix="+">12,400+</b><span>patients cared for since 2008</span></div>
+        <div class="stat"><b data-count="4.9" data-dec="1">4.9</b><span>average rating from 1,860 reviews</span></div>
+        <div class="stat"><b data-count="78" data-suffix="%">78%</b><span>of appointments booked online</span></div>
+        <div class="stat"><b data-count="47" data-suffix="s">47s</b><span>average time to book a visit</span></div>
+      </div>
+    </div>
+    <div class="feats">
+      <div class="feat" data-reveal><span class="fi"><span data-ic="clock"></span></span><div><h3>Booking that takes a minute</h3><p>Pick a treatment, a dentist and a time. No phone tag, no hold music, no forms to print.</p></div></div>
+      <div class="feat" data-reveal style="--d:.08s"><span class="fi"><span data-ic="heart"></span></span><div><h3>Gentle, unhurried care</h3><p>Longer appointments, honest explanations and comfort options for anxious patients.</p></div></div>
+      <div class="feat" data-reveal style="--d:.16s"><span class="fi"><span data-ic="scan"></span></span><div><h3>Technology you can see</h3><p>3D imaging and same-day digital scans mean fewer visits and clearer answers.</p></div></div>
+      <div class="feat" data-reveal style="--d:.24s"><span class="fi"><span data-ic="plan"></span></span><div><h3>Clear plans, no surprises</h3><p>Upfront estimates, insurance help and flexible payment plans, agreed before we start.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec alt" id="services">
+  <div class="wrap">
+    <div class="sec-head split">
+      <h2 class="h2" data-split>Everything your smile needs, under one roof.</h2>
+      <p data-reveal>From a first check-up to a complete smile makeover, every treatment can be booked online in a few taps.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc wide" data-reveal>
+        <span class="ico"><span data-ic="consult"></span></span>
+        <h3>Dental Consultation</h3>
+        <p>Not sure where to start? A thorough exam, digital X-rays and a clear, honest plan for your next steps.</p>
+        <div class="meta"><span>45 minutes</span><button type="button" class="go" data-book data-treatment="consult">Book this treatment <span data-ic="arrow"></span></button></div>
+      </article>
+      <article class="svc" data-reveal style="--d:.06s">
+        <span class="ico"><span data-ic="clean"></span></span>
+        <h3>Teeth Cleaning</h3>
+        <p>A gentle scale and polish for a fresh, healthy smile.</p>
+        <div class="meta"><span>40 minutes</span><button type="button" class="go" data-book data-treatment="cleaning">Book <span data-ic="arrow"></span></button></div>
+      </article>
+      <article class="svc" data-reveal>
+        <span class="ico"><span data-ic="root"></span></span>
+        <h3>Root Canal Treatment</h3>
+        <p>Relieve pain and save your natural tooth with precise, comfortable care.</p>
+        <div class="meta"><span>60 to 90 minutes</span><button type="button" class="go" data-book data-treatment="root">Book <span data-ic="arrow"></span></button></div>
+      </article>
+      <article class="svc" data-reveal style="--d:.06s">
+        <span class="ico"><span data-ic="implant"></span></span>
+        <h3>Dental Implants</h3>
+        <p>Natural-looking, permanent replacements that feel like your own teeth.</p>
+        <div class="meta"><span>60 minute planning visit</span><button type="button" class="go" data-book data-treatment="implants">Book <span data-ic="arrow"></span></button></div>
+      </article>
+      <article class="svc" data-reveal style="--d:.12s">
+        <span class="ico"><span data-ic="braces"></span></span>
+        <h3>Braces &amp; Orthodontics</h3>
+        <p>Traditional braces and clear aligners for teens and adults.</p>
+        <div class="meta"><span>45 minutes</span><button type="button" class="go" data-book data-treatment="braces">Book <span data-ic="arrow"></span></button></div>
+      </article>
+      <article class="svc wide" data-reveal>
+        <span class="ico"><span data-ic="cosmetic"></span></span>
+        <h3>Cosmetic Dentistry</h3>
+        <p>Whitening, veneers and bonding, designed around your natural features so the result looks like you.</p>
+        <div class="meta"><span>60 minutes</span><button type="button" class="go" data-book data-treatment="cosmetic">Book this treatment <span data-ic="arrow"></span></button></div>
+      </article>
+      <article class="svc urgent" data-reveal style="--d:.06s">
+        <span class="ico"><span data-ic="alert"></span></span>
+        <h3>Dental emergencies</h3>
+        <p>Toothache or an accident? We keep same-day slots for urgent care.</p>
+        <div class="meta"><span>Call us directly</span><a class="go" href="tel:+15550142266">(555) 014-2266</a></div>
+      </article>
+    </div>
+    <p class="note" data-reveal><span data-ic="shield"></span>Most major insurance plans accepted. Payment plans available on request.</p>
+  </div>
+</section>
+
+<!-- DENTISTS -->
+<section class="sec" id="dentists">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="h2" data-split>Meet the people who will look after you.</h2>
+      <p data-reveal>Four dentists, one shared approach: listen first, explain clearly and treat gently.</p>
+    </div>
+    <div class="den-grid">
+      <article class="den" data-reveal style="--g1:#0E7C79;--g2:#35B5AE">
+        <div class="portrait" aria-hidden="true"><span>AW</span></div>
+        <div class="body"><h3>Dr. Amara Whitfield</h3><span class="role">Principal Dentist, Cosmetic &amp; Implants</span><p class="bio">Leads our smile design work with an eye for natural, balanced results. 14 years of experience.</p>
+        <div class="next"><span class="dot"></span><span>Next: <b data-next="whitfield">checking</b></span></div>
+        <button type="button" class="btn btn-ghost btn-sm" data-book data-dentist="whitfield">Book with Dr. Whitfield</button></div>
+      </article>
+      <article class="den" data-reveal style="--d:.07s;--g1:#1D6F94;--g2:#5AB0D6">
+        <div class="portrait" aria-hidden="true"><span>DO</span></div>
+        <div class="body"><h3>Dr. Daniel Okafor</h3><span class="role">Endodontist &amp; General Dentist</span><p class="bio">Known for calm, virtually pain-free root canals and patient explanations. 11 years of experience.</p>
+        <div class="next"><span class="dot"></span><span>Next: <b data-next="okafor">checking</b></span></div>
+        <button type="button" class="btn btn-ghost btn-sm" data-book data-dentist="okafor">Book with Dr. Okafor</button></div>
+      </article>
+      <article class="den" data-reveal style="--d:.14s;--g1:#2A8E7C;--g2:#4FB39D">
+        <div class="portrait" aria-hidden="true"><span>SM</span></div>
+        <div class="body"><h3>Dr. Sofia Marchetti</h3><span class="role">Orthodontist</span><p class="bio">Straightens smiles for teens and adults with braces and clear aligners. 9 years of experience.</p>
+        <div class="next"><span class="dot"></span><span>Next: <b data-next="marchetti">checking</b></span></div>
+        <button type="button" class="btn btn-ghost btn-sm" data-book data-dentist="marchetti">Book with Dr. Marchetti</button></div>
+      </article>
+      <article class="den" data-reveal style="--d:.21s;--g1:#4A6FB5;--g2:#7A9CDD">
+        <div class="portrait" aria-hidden="true"><span>MR</span></div>
+        <div class="body"><h3>Dr. Marcus Reyes</h3><span class="role">General &amp; Family Dentist</span><p class="bio">Makes check-ups easy for every age, from first visits to lifelong care. 16 years of experience.</p>
+        <div class="next"><span class="dot"></span><span>Next: <b data-next="reyes">checking</b></span></div>
+        <button type="button" class="btn btn-ghost btn-sm" data-book data-dentist="reyes">Book with Dr. Reyes</button></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="sec alt" id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="h2" data-split>Booking takes less time than finding our number.</h2>
+      <p data-reveal>Four quick steps, on any device, at any hour. Patients choose what suits them and the clinic calendar updates instantly.</p>
+    </div>
+    <ol class="hsteps" id="hsteps">
+      <li class="hstep" style="--i:0"><span class="hbadge">1</span><div><h3>Choose your treatment</h3><p>Six treatments with clear descriptions and durations.</p></div></li>
+      <li class="hstep" style="--i:1"><span class="hbadge">2</span><div><h3>Pick your dentist</h3><p>See who is available for your treatment, or let us match you.</p></div></li>
+      <li class="hstep" style="--i:2"><span class="hbadge">3</span><div><h3>Select a time</h3><p>Live availability that updates the moment a slot is taken.</p></div></li>
+      <li class="hstep" style="--i:3"><span class="hbadge">4</span><div><h3>Get confirmed</h3><p>Instant confirmation, with a reminder sent before your visit.</p></div></li>
+    </ol>
+    <div class="assure" data-reveal>
+      <div><span data-ic="check"></span><span>Instant confirmation<small>No waiting for a call back</small></span></div>
+      <div><span data-ic="bell"></span><span>Automatic reminders<small>Fewer missed appointments</small></span></div>
+      <div><span data-ic="swap"></span><span>Free changes<small>Up to 24 hours before</small></span></div>
+      <button type="button" class="btn btn-primary magnetic" data-book>Try it now</button>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="sec" id="reviews">
+  <div class="wrap rev">
+    <div>
+      <h2 class="h2" data-split>Patients say it best.</h2>
+      <div style="margin-top:34px" data-reveal>
+        <div class="score">4.9</div>
+        <div class="score-meta"><div class="stars" id="score-stars" aria-hidden="true"></div>Average rating across 1,860 reviews</div>
+        <div class="rev-ctl"><button type="button" class="cbtn" id="rprev" aria-label="Previous reviews"><span data-ic="chevL"></span></button><button type="button" class="cbtn" id="rnext" aria-label="Next reviews"><span data-ic="chevR"></span></button></div>
+      </div>
+    </div>
+    <div class="track" id="track" tabindex="0" role="region" aria-label="Patient reviews">
+      <figure class="review" style="margin:0"><div class="stars" aria-label="5 stars" data-stars></div><blockquote>I had put off the dentist for years. Booking at midnight and walking into such a calm, friendly clinic changed that completely.</blockquote><footer><span class="av" style="--g1:#0E7C79;--g2:#35B5AE">HR</span><div><b>Hannah R.</b><small>Teeth Cleaning</small></div></footer></figure>
+      <figure class="review" style="margin:0"><div class="stars" aria-label="5 stars" data-stars></div><blockquote>Dr. Okafor explained every step of my root canal and I felt nothing. Easier than the phone calls I used to make.</blockquote><footer><span class="av" style="--g1:#1D6F94;--g2:#5AB0D6">MT</span><div><b>Michael T.</b><small>Root Canal Treatment</small></div></footer></figure>
+      <figure class="review" style="margin:0"><div class="stars" aria-label="5 stars" data-stars></div><blockquote>My kids ask when we are going back. Picking a time from my phone at lunch took less than a minute.</blockquote><footer><span class="av" style="--g1:#2A8E7C;--g2:#4FB39D">PS</span><div><b>Priya S.</b><small>Family check-up</small></div></footer></figure>
+      <figure class="review" style="margin:0"><div class="stars" aria-label="5 stars" data-stars></div><blockquote>The implant journey was clear from day one: the plan, the timing, the cost. No surprises, and it looks completely natural.</blockquote><footer><span class="av" style="--g1:#4A6FB5;--g2:#7A9CDD">DW</span><div><b>Daniel W.</b><small>Dental Implants</small></div></footer></figure>
+      <figure class="review" style="margin:0"><div class="stars" aria-label="5 stars" data-stars></div><blockquote>I booked a clear aligner consult for the next morning. Dr. Marchetti was brilliant and the reminders meant I never worried.</blockquote><footer><span class="av" style="--g1:#0E7C79;--g2:#6DBBE0">OC</span><div><b>Olivia C.</b><small>Orthodontics</small></div></footer></figure>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="sec alt" id="visit">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="h2" data-split>Visit us, or book from your sofa.</h2>
+    </div>
+    <div class="visit">
+      <div class="info">
+        <div class="rows" data-reveal>
+          <div class="row"><span data-ic="pin"></span><div><b>Ciora Dental Care</b><span>214 Marlow Street, Harbour District</span></div></div>
+          <div class="row"><span data-ic="phone"></span><div><b>Call us</b><a href="tel:+15550142266">(555) 014-2266</a></div></div>
+          <div class="row"><span data-ic="mail"></span><div><b>Email</b><a href="mailto:hello@cioradental.com">hello@cioradental.com</a></div></div>
+          <div class="row"><span data-ic="parking"></span><div><b>Free parking</b><span>Patient parking behind the clinic</span></div></div>
+          <div class="row"><span data-ic="access"></span><div><b>Step-free access</b><span>Ground floor with accessible restroom</span></div></div>
+        </div>
+        <div class="hours" data-reveal>
+          <div class="hours-h"><h3>Opening hours</h3><span class="open" id="openstate"><i></i><span>Checking</span></span></div>
+          <table id="hours"><caption class="sr">Clinic opening hours</caption><tbody>
+            <tr data-days="1,2,3"><th scope="row">Monday to Wednesday</th><td>8:30 AM to 6:00 PM</td></tr>
+            <tr data-days="4"><th scope="row">Thursday</th><td>8:30 AM to 7:00 PM</td></tr>
+            <tr data-days="5"><th scope="row">Friday</th><td>8:30 AM to 6:00 PM</td></tr>
+            <tr data-days="6"><th scope="row">Saturday</th><td>9:00 AM to 1:00 PM</td></tr>
+            <tr data-days="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody></table>
+        </div>
+      </div>
+      <div class="map" data-reveal="scale" role="img" aria-label="Stylised map showing Ciora Dental Care at 214 Marlow Street">
+        <svg class="bgmap" viewBox="0 0 600 560" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <rect width="600" height="560" fill="var(--tint)"/>
+          <path d="M-20 430C120 380 200 470 330 430S520 360 640 410V580H-20z" fill="var(--sky)"/>
+          <rect x="60" y="70" width="150" height="110" rx="26" fill="var(--tint-2)"/>
+          <rect x="400" y="60" width="150" height="90" rx="26" fill="var(--tint-2)"/>
+          <circle cx="470" cy="250" r="54" fill="color-mix(in srgb,var(--accent) 22%,transparent)"/>
+          <g stroke="var(--surface)" stroke-linecap="round" fill="none">
+            <path d="M-10 230H610" stroke-width="18"/><path d="M290 -10V420" stroke-width="18"/>
+            <path d="M0 330C160 300 300 350 610 300" stroke-width="10"/><path d="M120 -10V330" stroke-width="10"/>
+            <path d="M430 -10V330" stroke-width="10"/><path d="M0 120H290" stroke-width="8"/><path d="M290 160H610" stroke-width="8"/>
+          </g>
+        </svg>
+        <div class="pin" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22s7-6 7-12a7 7 0 1 0-14 0c0 6 7 12 7 12z" fill="currentColor"/><circle cx="12" cy="10" r="3" fill="#fff"/></svg></div>
+        <div class="glass maplabel"><div><b>Ciora Dental Care</b><small>214 Marlow Street, Harbour District</small></div><button type="button" class="btn btn-primary btn-sm" data-book>Book a visit</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap">
+    <div class="cta-panel" data-reveal="scale">
+      <div>
+        <h2>Book your visit in under a minute.</h2>
+        <p>Choose a treatment, pick a time that suits you and get an instant confirmation. No account needed.</p>
+      </div>
+      <div class="acts">
+        <button type="button" class="btn btn-light btn-lg magnetic" data-book>Book an Appointment</button>
+        <a class="tel" href="tel:+15550142266">Or call (555) 014-2266</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top"><svg aria-hidden="true"><use href="#i-mark"/></svg><span><b>Ciora</b><small>Dental Care</small></span></a>
+        <p>Modern, comfortable, patient-focused dentistry with online booking that respects your time.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="#why">Why Ciora</a></li><li><a href="#services">Services</a></li><li><a href="#dentists">Our dentists</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
+      <div><h4>Visit</h4><ul><li><span>214 Marlow Street</span></li><li><span>Harbour District</span></li><li><a href="tel:+15550142266">(555) 014-2266</a></li><li><a href="mailto:hello@cioradental.com">hello@cioradental.com</a></li></ul></div>
+      <div><h4>Hours</h4><ul><li><span>Mon to Fri: 8:30 AM to 6:00 PM</span></li><li><span>Thursday until 7:00 PM</span></li><li><span>Saturday: 9:00 AM to 1:00 PM</span></li><li><span>Sunday: Closed</span></li></ul></div>
+    </div>
+    <div class="foot-base"><span>&copy; 2026 Ciora Dental Care</span><span>Demo website. Ciora Dental Care is a fictional clinic.</span></div>
+  </div>
+</footer>
+
+<!-- BOOKING MODAL -->
+<div class="bk" id="bk" hidden>
+  <div class="bk-backdrop" data-close></div>
+  <div class="bk-panel" role="dialog" aria-modal="true" aria-label="Book an appointment">
+    <aside class="bk-side">
+      <a class="brand" href="#top" data-close aria-label="Ciora Dental Care"><svg aria-hidden="true"><use href="#i-mark"/></svg><span><b>Ciora</b><small>Dental Care</small></span></a>
+      <ol class="stepper" id="bk-steps" aria-label="Booking progress"></ol>
+      <div class="summary" id="bk-sum"></div>
+    </aside>
+    <div class="bk-main">
+      <div class="bk-top">
+        <div class="bk-mob"><b id="bk-count"></b><div class="segs" id="bk-segs" aria-hidden="true"></div></div>
+        <button type="button" class="bk-close" data-close aria-label="Close booking"><span data-ic="close"></span></button>
+      </div>
+      <div class="bk-body" id="bk-body"></div>
+      <div class="bk-foot" id="bk-foot">
+        <button type="button" class="btn btn-ghost btn-sm" id="bk-back"><span data-ic="arrowL"></span>Back</button>
+        <span class="bk-hint" id="bk-hint" aria-live="polite"></span>
+        <button type="button" class="btn btn-primary" id="bk-next">Continue</button>
+      </div>
+    </div>
+    <div class="sr" id="bk-live" aria-live="polite"></div>
+  </div>
+</div>
+
+<script>
+(()=>{
+'use strict';
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+
+/* ---------- Icons ---------- */
+const IC={
+ consult:'<path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4 3.5V16h-.5A1.5 1.5 0 0 1 4 14.5z"/><path d="m9 10 2 2 4-4"/>',
+ clean:'<path d="M11 3l1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9z"/><path d="M19 15v5M16.5 17.5h5"/>',
+ root:'<path d="M12 5.5c-1.3-1-3.4-1.4-5-.6C4.6 6 4.3 8.8 5 11c.6 1.9 1.3 3 1.5 5 .2 2 .5 3.6 1.7 3.6 1.4 0 1.3-3 3.8-3s2.4 3 3.8 3c1.2 0 1.5-1.6 1.7-3.6.2-2 .9-3.1 1.5-5 .7-2.2.4-5-2-6.1-1.6-.8-3.7-.4-5 .6z"/><path d="M12 9v4"/>',
+ implant:'<path d="M7 4h10"/><path d="M8 4v4a4 4 0 0 0 8 0V4"/><path d="M9 12.5h6M9.5 15.5h5M10.5 18.5h3"/><path d="M12 18.5V21"/>',
+ braces:'<path d="M3 12h18"/><rect x="4.5" y="8.5" width="4" height="7" rx="1.2"/><rect x="10" y="8.5" width="4" height="7" rx="1.2"/><rect x="15.5" y="8.5" width="4" height="7" rx="1.2"/>',
+ cosmetic:'<circle cx="12" cy="12" r="8.5"/><path d="M8.5 13.5c1 1.6 2.2 2.3 3.5 2.3s2.5-.7 3.5-2.3"/><path d="M9 9.5h.01M15 9.5h.01"/>',
+ calendar:'<rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+ clock:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+ user:'<circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c.8-3.6 3.6-5.5 7-5.5s6.2 1.9 7 5.5"/>',
+ users:'<circle cx="9" cy="9" r="3.2"/><path d="M3 19.5c.6-3.2 3-5 6-5s5.4 1.8 6 5"/><path d="M16 6.2a3.2 3.2 0 0 1 0 5.6M17.5 14.7c1.9.5 3.1 2.2 3.5 4.8"/>',
+ check:'<path d="m5 12.5 4.5 4.5L19 7.5"/>',
+ arrow:'<path d="M5 12h14M13 6l6 6-6 6"/>',
+ arrowL:'<path d="M19 12H5M11 6l-6 6 6 6"/>',
+ close:'<path d="M6 6l12 12M18 6 6 18"/>',
+ chevL:'<path d="m14.5 6-6 6 6 6"/>',
+ chevR:'<path d="m9.5 6 6 6-6 6"/>',
+ heart:'<path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z"/>',
+ scan:'<path d="M4 8V6.5A2.5 2.5 0 0 1 6.5 4H8M16 4h1.5A2.5 2.5 0 0 1 20 6.5V8M20 16v1.5a2.5 2.5 0 0 1-2.5 2.5H16M8 20H6.5A2.5 2.5 0 0 1 4 17.5V16"/><path d="M4 12h16"/>',
+ plan:'<path d="M6 3.5h12v17l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/>',
+ phone:'<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/>',
+ mail:'<rect x="3.5" y="5.5" width="17" height="13" rx="3"/><path d="m4.5 8 7.5 5.5L19.5 8"/>',
+ pin:'<path d="M12 21s6.5-5.6 6.5-11a6.5 6.5 0 1 0-13 0C5.5 15.4 12 21 12 21z"/><circle cx="12" cy="10" r="2.3"/>',
+ shield:'<path d="M12 3.5 19 6v5.5c0 4.3-3 7.6-7 9-4-1.4-7-4.7-7-9V6z"/><path d="m9 12 2 2 4-4"/>',
+ bell:'<path d="M6 16.5V11a6 6 0 1 1 12 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/>',
+ swap:'<path d="M4 12a8 8 0 0 1 13.7-5.6L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.6L4 15.5M4 20v-4.5h4.5"/>',
+ alert:'<circle cx="12" cy="12" r="8.5"/><path d="M12 8v5M12 16h.01"/>',
+ parking:'<rect x="4" y="4" width="16" height="16" rx="4.5"/><path d="M10 16.5V8h3a2.6 2.6 0 0 1 0 5.2h-3"/>',
+ access:'<circle cx="12" cy="5" r="1.6"/><path d="M8 9.5h8M12 9.5V14l3.5 5M9 13.5a4.5 4.5 0 1 0 6 6"/>',
+ lock:'<rect x="5" y="10.5" width="14" height="9.5" rx="2.5"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/>'
+};
+const icon=(n,s=24)=>`<svg class="ic" viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[n]||''}</svg>`;
+const STAR='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.7 6.6 19.7l1.2-6L3.3 9.5l6.1-.7z"/></svg>';
+const paintIcons=(root=document)=>$$('[data-ic]',root).forEach(el=>{if(!el.firstChild)el.innerHTML=icon(el.dataset.ic)});
+paintIcons();
+['hero-stars','card-stars','score-stars'].forEach(id=>{const e=document.getElementById(id);if(e)e.innerHTML=STAR.repeat(5)});
+$$('[data-stars]').forEach(e=>e.innerHTML=STAR.repeat(5));
+
+/* ---------- Utilities ---------- */
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pad=n=>String(n).padStart(2,'0');
+const keyOf=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const fromKey=k=>{const [y,m,d]=k.split('-').map(Number);return new Date(y,m-1,d)};
+const startOfDay=d=>new Date(d.getFullYear(),d.getMonth(),d.getDate());
+const addDays=(d,n)=>new Date(d.getFullYear(),d.getMonth(),d.getDate()+n);
+const sameDay=(a,b)=>keyOf(a)===keyOf(b);
+const fmtTime=m=>{const h=Math.floor(m/60),mm=m%60;return `${h%12||12}:${pad(mm)} ${h>=12?'PM':'AM'}`};
+const fmtDate=(d,o)=>d.toLocaleDateString('en-US',o);
+const rel=d=>{const diff=Math.round((startOfDay(d)-startOfDay(new Date()))/864e5);return diff===0?'Today':diff===1?'Tomorrow':fmtDate(d,{weekday:'short',month:'short',day:'numeric'})};
+const hash=str=>{let h=2166136261;for(let i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0)/4294967295};
+
+/* ---------- Data ---------- */
+const TREATMENTS=[
+ {id:'consult',name:'Dental Consultation',desc:'A thorough exam, digital X-rays and a clear plan.',dur:45,ic:'consult'},
+ {id:'cleaning',name:'Teeth Cleaning',desc:'Gentle scale and polish for a fresh, healthy smile.',dur:40,ic:'clean'},
+ {id:'root',name:'Root Canal Treatment',desc:'Relieve pain and save your natural tooth.',dur:90,ic:'root'},
+ {id:'implants',name:'Dental Implants',desc:'Natural-looking, permanent tooth replacement.',dur:60,ic:'implant'},
+ {id:'braces',name:'Braces & Orthodontics',desc:'Braces and clear aligners for every age.',dur:45,ic:'braces'},
+ {id:'cosmetic',name:'Cosmetic Dentistry',desc:'Whitening, veneers and bonding, tailored to you.',dur:60,ic:'cosmetic'}
+];
+const DENTISTS=[
+ {id:'whitfield',name:'Dr. Amara Whitfield',short:'Dr. Whitfield',ini:'AW',role:'Cosmetic & implants',g:['#0E7C79','#35B5AE'],treats:['consult','cleaning','implants','cosmetic'],days:[1,2,4,5]},
+ {id:'okafor',name:'Dr. Daniel Okafor',short:'Dr. Okafor',ini:'DO',role:'Endodontist & general',g:['#1D6F94','#5AB0D6'],treats:['consult','cleaning','root','implants'],days:[2,3,4,5,6]},
+ {id:'marchetti',name:'Dr. Sofia Marchetti',short:'Dr. Marchetti',ini:'SM',role:'Orthodontist',g:['#2A8E7C','#4FB39D'],treats:['consult','cleaning','braces','cosmetic'],days:[1,3,5,6]},
+ {id:'reyes',name:'Dr. Marcus Reyes',short:'Dr. Reyes',ini:'MR',role:'General & family',g:['#4A6FB5','#7A9CDD'],treats:['consult','cleaning','root'],days:[1,2,3,4,5]}
+];
+const dentById=id=>DENTISTS.find(d=>d.id===id);
+const trById=id=>TREATMENTS.find(t=>t.id===id);
+const STEP_NAMES=['Treatment','Dentist','Date & time','Your details','Confirmation'];
+const CLINIC='214 Marlow Street, Harbour District';
+
+/* ---------- State ---------- */
+const S={step:0,treatment:null,dentist:null,date:null,time:null,month:null,prefill:null,
+  form:{name:'',phone:'',email:'',type:'new',msg:''},touched:{},booked:new Set(),
+  loading:false,submitting:false,formError:'',result:null,viaPointer:false};
+const today0=()=>startOfDay(new Date());
+
+/* ---------- Availability engine ---------- */
+function baseTimes(date){
+  const w=date.getDay(); if(w===0) return [];
+  const start=w===6?540:510, end=w===6?780:(w===4?1140:1080), out=[];
+  for(let m=start;m<end;m+=30){ if(w!==6&&m>=750&&m<810) continue; out.push(m); }
+  return out;
+}
+function slotFree(d,date,min){
+  if(!d.days.includes(date.getDay())) return false;
+  const key=keyOf(date);
+  if(hash(d.id+key+'full')<0.07) return false;
+  if(S.booked.has(`${d.id}|${key}|${min}`)) return false;
+  return hash(d.id+key+min)>0.36;
+}
+function eligible(){return S.treatment?DENTISTS.filter(d=>d.treats.includes(S.treatment)):DENTISTS}
+function candidates(){return (S.dentist&&S.dentist!=='any')?[dentById(S.dentist)]:eligible()}
+function slotsFor(date,cands){
+  const t0=today0();
+  if(date<t0) return {list:[],free:0,reason:'past'};
+  if(date.getDay()===0) return {list:[],free:0,reason:'closed'};
+  const working=cands.filter(d=>d.days.includes(date.getDay()));
+  if(!working.length) return {list:[],free:0,reason:'off'};
+  let times=baseTimes(date);
+  if(sameDay(date,t0)){const n=new Date();const lim=n.getHours()*60+n.getMinutes()+60;times=times.filter(m=>m>lim);if(!times.length) return {list:[],free:0,reason:'late'}}
+  const list=times.map(m=>({min:m,free:working.some(d=>slotFree(d,date,m))}));
+  const free=list.filter(s=>s.free).length;
+  return {list,free,reason:free?null:'full'};
+}
+function nextOpening(cands,from){
+  const start=startOfDay(from||new Date());
+  for(let i=0;i<75;i++){const d=addDays(start,i);const r=slotsFor(d,cands);if(r.free){return {date:d,min:r.list.find(s=>s.free).min,free:r.free}}}
+  return null;
+}
+
+/* ---------- Hero live slots + dentist "next" ---------- */
+function pickHeroSlots(){
+  const out=[],start=today0();
+  for(let i=0;i<14&&out.length<3;i++){
+    const d=addDays(start,i),r=slotsFor(d,DENTISTS);if(!r.free) continue;
+    const fr=r.list.filter(s=>s.free);
+    if(!out.length){out.push({date:d,min:fr[0].min});const later=fr.find(s=>s.min>=fr[0].min+150);if(later) out.push({date:d,min:later.min})}
+    else{const p=fr.find(s=>s.min>=570)||fr[0];out.push({date:d,min:p.min})}
+  }
+  return out.slice(0,3);
+}
+function renderHero(){
+  const slots=pickHeroSlots(), box=$('#hero-slots');
+  box.innerHTML=slots.map(s=>`<button type="button" class="hslot" data-book data-slot="${keyOf(s.date)}|${s.min}"><span>${rel(s.date)}</span><b>${fmtTime(s.min)}</b></button>`).join('');
+  if(slots[0]) $('#chip-when').textContent=`${rel(slots[0].date)}, ${fmtTime(slots[0].min)}`;
+}
+function renderNexts(){
+  DENTISTS.forEach(d=>{const el=$(`[data-next="${d.id}"]`);if(!el) return;const n=nextOpening([d]);el.textContent=n?`${rel(n.date)}, ${fmtTime(n.min)}`:'Call to book'});
+}
+
+/* ---------- Booking modal ---------- */
+const bk=$('#bk'), body=$('#bk-body');
+let lastFocus=null, slotToken=0;
+function resetBooking(){Object.assign(S,{step:0,treatment:null,dentist:null,date:null,time:null,month:null,prefill:null,touched:{},loading:false,submitting:false,formError:'',result:null});S.form={name:'',phone:'',email:'',type:'new',msg:''}}
+function openBooking(o={}){
+  lastFocus=o.trigger||document.activeElement;
+  if(S.step===4&&!o.resume) resetBooking();
+  if(!o.resume){
+    if(o.treatment){resetPart();S.treatment=o.treatment;S.step=1;if(S.dentist&&S.dentist!=='any'&&!dentById(S.dentist).treats.includes(o.treatment))S.dentist=null}
+    else if(o.dentist){resetPart();S.dentist=o.dentist;S.step=0}
+    else if(o.slot){resetPart();const [k,m]=o.slot.split('|');S.prefill={date:fromKey(k),min:+m};S.step=0}
+  }
+  bk.hidden=false; document.body.classList.add('locked');
+  render(1,true);
+  requestAnimationFrame(()=>requestAnimationFrame(()=>bk.classList.add('open')));
+}
+function resetPart(){S.treatment=null;S.dentist=null;S.date=null;S.time=null;S.prefill=null;S.step=0}
+function closeBooking(){
+  bk.classList.remove('open');document.body.classList.remove('locked');
+  setTimeout(()=>{bk.hidden=true},reduce?0:380);
+  if(lastFocus&&lastFocus.focus&&document.contains(lastFocus)) lastFocus.focus({preventScroll:true});
+}
+function go(n){
+  const dir=n>=S.step?1:-1;
+  if(reduce){S.step=n;render(dir);return}
+  body.classList.remove('in-fwd','in-back');body.classList.add(dir>0?'out-fwd':'out-back');
+  setTimeout(()=>{S.step=n;render(dir)},170);
+}
+function render(dir=1,initial=false){
+  body.classList.remove('out-fwd','out-back','in-fwd','in-back');
+  const views=[stepTreatment,stepDentist,stepTime,stepDetails,stepDone];
+  body.innerHTML=views[S.step]();
+  void body.offsetWidth;
+  if(!reduce) body.classList.add(dir>0?'in-fwd':'in-back');
+  body.scrollTop=0;
+  if(S.step===2){renderCal();renderSlots()}
+  paintIcons(body);
+  updateSide();updateFoot();
+  $('#bk-live').textContent=`Step ${S.step+1} of 5: ${STEP_NAMES[S.step]}`;
+  const h=$('.bk-h',body);if(h&&!initial) h.focus({preventScroll:true});
+  else if(initial){const p=$('.bk-panel');p.setAttribute('tabindex','-1');p.focus({preventScroll:true})}
+}
+
+/* Step 1 */
+function stepTreatment(){
+  const dent=S.dentist&&S.dentist!=='any'?dentById(S.dentist):null;
+  return `<h2 class="bk-h" tabindex="-1">What brings you in?</h2>
+  <p class="bk-sub">${dent?`Showing treatments offered by ${esc(dent.name)}.`:'Choose a treatment. You can change it at any point.'}</p>
+  <div class="opt-grid" role="radiogroup" aria-label="Treatment">${TREATMENTS.map(t=>{
+    const off=dent&&!dent.treats.includes(t.id);
+    return `<label class="opt${off?' is-off':''}"><input type="radio" name="treatment" value="${t.id}"${S.treatment===t.id?' checked':''}${off?' disabled':''}><span class="opt-in"><span class="opt-ic">${icon(t.ic)}</span><span class="opt-tx"><b>${t.name}</b><small>${off?'Not offered by '+esc(dent.short):t.desc}</small><em>${t.dur} min</em></span><span class="opt-check">${icon('check',13)}</span></span></label>`}).join('')}</div>`;
+}
+/* Step 2 */
+function stepDentist(){
+  if(S.dentist&&S.dentist!=='any'&&!eligible().some(d=>d.id===S.dentist)) S.dentist=null;
+  const el=eligible(), tr=trById(S.treatment), any=nextOpening(el);
+  const anyCard=`<label class="opt opt-any"><input type="radio" name="dentist" value="any"${S.dentist==='any'?' checked':''}><span class="opt-in"><span class="opt-ic">${icon('users')}</span><span class="opt-tx"><b>First available dentist</b><small>We match you with whoever can see you soonest.</small><em>${any?'Earliest: '+rel(any.date)+', '+fmtTime(any.min):'Call us to book'}</em></span><span class="opt-check">${icon('check',13)}</span></span></label>`;
+  const cards=el.map(d=>{const n=nextOpening([d]);return `<label class="opt"><input type="radio" name="dentist" value="${d.id}"${S.dentist===d.id?' checked':''}><span class="opt-in"><span class="mono" style="--g1:${d.g[0]};--g2:${d.g[1]}" aria-hidden="true">${d.ini}</span><span class="opt-tx"><b>${d.name}</b><small>${d.role}</small><em>${n?'Next: '+rel(n.date)+', '+fmtTime(n.min):'No openings soon'}</em></span><span class="opt-check">${icon('check',13)}</span></span></label>`}).join('');
+  return `<h2 class="bk-h" tabindex="-1">Who would you like to see?</h2>
+  <p class="bk-sub">${tr?`${el.length} ${el.length===1?'dentist offers':'dentists offer'} ${esc(tr.name)}.`:'Choose a dentist.'}</p>
+  <div class="opt-grid" role="radiogroup" aria-label="Dentist">${anyCard}${cards}</div>`;
+}
+/* Step 3 */
+function ensureDate(){
+  const cands=candidates();
+  if(!S.date){
+    if(S.prefill){const p=S.prefill;S.prefill=null;if(p.date>=today0()){S.date=p.date;S.month=new Date(p.date.getFullYear(),p.date.getMonth(),1);const r=slotsFor(p.date,cands);if(r.list.some(s=>s.min===p.min&&s.free)) S.time=p.min}}
+    if(!S.date){const n=nextOpening(cands);S.date=n?n.date:today0()}
+  }
+  if(!S.month) S.month=new Date(S.date.getFullYear(),S.date.getMonth(),1);
+}
+function stepTime(){
+  ensureDate();
+  const n=nextOpening(candidates());
+  const showEarliest=n&&!(S.date&&sameDay(S.date,n.date)&&S.time===n.min);
+  return `<h2 class="bk-h" tabindex="-1">Pick a day and time</h2>
+  <p class="bk-sub">Live availability${S.dentist&&S.dentist!=='any'?` for ${esc(dentById(S.dentist).name)}`:''}. Times are in clinic local time.</p>
+  ${showEarliest?`<button type="button" class="chip-link" data-act="earliest">${icon('clock',16)}Earliest opening: ${rel(n.date)}, ${fmtTime(n.min)}</button>`:''}
+  <div class="time-grid"><div id="cal"></div><div id="slots" aria-live="polite"></div></div>`;
+}
+function renderCal(){
+  const box=$('#cal');if(!box) return;
+  const m=S.month,t0=today0(),first=new Date(m.getFullYear(),m.getMonth(),1);
+  const offset=(first.getDay()+6)%7,dim=new Date(m.getFullYear(),m.getMonth()+1,0).getDate(),cands=candidates();
+  const minM=new Date(t0.getFullYear(),t0.getMonth(),1),maxM=new Date(t0.getFullYear(),t0.getMonth()+3,1);
+  let focusKey=S.date&&S.date.getMonth()===m.getMonth()&&S.date.getFullYear()===m.getFullYear()?keyOf(S.date):null;
+  const days=[];
+  for(let d=1;d<=dim;d++){const date=new Date(m.getFullYear(),m.getMonth(),d);days.push({date,r:slotsFor(date,cands)})}
+  if(!focusKey){const f=days.find(x=>x.r.reason!=='past');focusKey=f?keyOf(f.date):null}
+  let cells='';for(let i=0;i<offset;i++) cells+='<span class="cal-pad"></span>';
+  days.forEach(({date,r})=>{
+    const k=keyOf(date),past=r.reason==='past',sel=S.date&&sameDay(S.date,date);
+    const cls=['day',r.free?(r.free<=3?'few':'ok'):'none',sameDay(date,t0)?'today':''].join(' ').trim();
+    const label=`${fmtDate(date,{weekday:'long',month:'long',day:'numeric'})}, ${r.free?r.free+' times available':'no availability'}`;
+    cells+=`<button type="button" class="${cls}" data-date="${k}" aria-label="${label}" aria-pressed="${sel?'true':'false'}" tabindex="${k===focusKey?0:-1}"${past?' disabled':''}>${date.getDate()}<i></i></button>`;
+  });
+  box.innerHTML=`<div class="cal-h"><h3>${fmtDate(m,{month:'long',year:'numeric'})}</h3><div class="cal-nav"><button type="button" data-act="prev" aria-label="Previous month"${m<=minM?' disabled':''}>${icon('chevL',18)}</button><button type="button" data-act="next" aria-label="Next month"${m>=maxM?' disabled':''}>${icon('chevR',18)}</button></div></div>
+  <div class="cal-wd" aria-hidden="true">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(x=>`<span>${x}</span>`).join('')}</div>
+  <div class="cal-grid" id="cal-grid" role="group" aria-label="Choose a date">${cells}</div>
+  <div class="legend"><span><i style="background:var(--accent)"></i>Available</span><span><i style="background:var(--warn)"></i>Few left</span></div>`;
+}
+function renderSlots(){
+  const box=$('#slots');if(!box) return;
+  if(!S.date){box.innerHTML='';return}
+  const cands=candidates(),r=slotsFor(S.date,cands);
+  const head=`<div class="slots-head"><h3>${fmtDate(S.date,{weekday:'long',month:'long',day:'numeric'})}</h3><p>${S.loading?'Checking availability':r.free?r.free+' time'+(r.free>1?'s':'')+' available':'No times available'}</p></div>`;
+  if(S.loading){box.innerHTML=head+`<div class="slots" aria-hidden="true">${Array.from({length:9},()=>'<div class="skel"></div>').join('')}</div>`;return}
+  if(!r.free){
+    const wd=fmtDate(S.date,{weekday:'long'});
+    const dent=S.dentist&&S.dentist!=='any'?dentById(S.dentist):null;
+    const msg={closed:'The clinic is closed on Sundays.',off:dent?`${dent.short} does not see patients on ${wd}s.`:`No dentists offering this treatment are in on ${wd}s.`,full:'Every appointment on this day is taken.',late:'Today\u2019s appointments have finished.',past:'This date has passed.'}[r.reason];
+    box.innerHTML=head+`<div class="empty"><span class="ei">${icon('calendar')}</span><b>${msg}</b><p>Try another day, or jump straight to the next opening.</p><button type="button" class="btn btn-ghost btn-sm" data-act="nextopen">Show next opening</button></div>`;return;
+  }
+  const groups=[['Morning',r.list.filter(s=>s.min<720)],['Afternoon',r.list.filter(s=>s.min>=720&&s.min<1020)],['Evening',r.list.filter(s=>s.min>=1020)]].filter(g=>g[1].length);
+  box.innerHTML=head+groups.map(([n,l])=>`<div class="grp"><h4>${n}</h4><div class="slots">${l.map(s=>`<button type="button" class="slot" data-min="${s.min}" aria-pressed="${S.time===s.min?'true':'false'}"${s.free?'':' disabled aria-label="'+fmtTime(s.min)+', booked"'}>${fmtTime(s.min)}</button>`).join('')}</div></div>`).join('');
+}
+function pickDate(date){
+  S.date=date;S.time=null;S.loading=true;
+  const tok=++slotToken;
+  refocus(renderCal);renderSlots();updateSide();updateFoot();
+  setTimeout(()=>{if(tok!==slotToken) return;S.loading=false;renderSlots()},reduce?0:340);
+}
+function refocus(fn){
+  const k=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.date;
+  fn();
+  if(k){const b=$(`.day[data-date="${k}"]`);if(b) b.focus({preventScroll:true})}
+}
+/* Step 4 */
+const FIELD={
+  name:v=>v.trim().length>=2?'':'Enter your full name.',
+  phone:v=>(/^[+()\-.\s\d]{7,22}$/.test(v.trim())&&v.replace(/\D/g,'').length>=7)?'':'Enter a valid phone number, like (555) 014-2266.',
+  email:v=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim())?'':'Enter a valid email address, like name@example.com.'
+};
+const errHTML=m=>m?`${icon('alert',16)}<span>${m}</span>`:'';
+function stepDetails(){
+  const f=S.form,e=k=>S.touched[k]?FIELD[k](f[k]):'';
+  const fld=(k,label,type,ph,ac)=>`<div class="field"><label for="f-${k}">${label}</label><input class="input" id="f-${k}" name="${k}" type="${type}" autocomplete="${ac}" placeholder="${ph}" value="${esc(f[k])}" required aria-required="true" aria-describedby="e-${k}"${e(k)?' aria-invalid="true"':''}><div class="err" id="e-${k}" aria-live="polite">${errHTML(e(k))}</div></div>`;
+  return `<h2 class="bk-h" tabindex="-1">Your details</h2><p class="bk-sub">Almost done. We only use these to manage your appointment.</p>
+  <form class="form" id="bk-form" novalidate>
+    ${S.formError?`<div class="banner" role="alert">${icon('alert',20)}<span>${esc(S.formError)}</span></div>`:''}
+    ${fld('name','Full name','text','Jane Doe','name')}
+    ${fld('phone','Phone number','tel','(555) 014-2266','tel')}
+    <div class="field full">${''}<label for="f-email">Email address</label><input class="input" id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" value="${esc(f.email)}" required aria-required="true" aria-describedby="e-email"${e('email')?' aria-invalid="true"':''}><div class="err" id="e-email" aria-live="polite">${errHTML(e('email'))}</div></div>
+    <fieldset class="field full seg"><legend class="sr">Are you a new or returning patient?</legend>
+      <label><input type="radio" name="ptype" value="new"${f.type==='new'?' checked':''}><span>New patient</span></label>
+      <label><input type="radio" name="ptype" value="returning"${f.type==='returning'?' checked':''}><span>Returning patient</span></label></fieldset>
+    <div class="field full"><label for="f-msg">Message <small>(optional)</small></label><textarea class="input" id="f-msg" name="msg" maxlength="240" placeholder="Anything we should know? Nerves, pain, questions...">${esc(f.msg)}</textarea><div class="count" id="msg-count">${f.msg.length}/240</div></div>
+    <p class="privacy">${icon('lock',18)}Your details are private and never shared. Free cancellation up to 24 hours before.</p>
+  </form>`;
+}
+function validateAll(showFocus){
+  let firstBad=null;
+  ['name','phone','email'].forEach(k=>{S.touched[k]=true;const m=FIELD[k](S.form[k]);setFieldError(k,m);if(m&&!firstBad) firstBad=k});
+  if(firstBad&&showFocus){const el=$('#f-'+firstBad);if(el) el.focus()}
+  return !firstBad;
+}
+function setFieldError(k,m){
+  const el=$('#f-'+k),er=$('#e-'+k);if(!el||!er) return;
+  if(m){el.setAttribute('aria-invalid','true')}else{el.removeAttribute('aria-invalid')}
+  er.innerHTML=errHTML(m);
+}
+async function confirmBooking(){
+  if(S.submitting) return;
+  if(!validateAll(true)){$('#bk-live').textContent='Please fix the highlighted fields.';return}
+  S.formError='';
+  const banner=$('.banner',body);if(banner) banner.remove();
+  if(!navigator.onLine){
+    S.formError='You appear to be offline. Reconnect and select Confirm appointment again. Your details are saved.';
+    const f=$('#bk-form');if(f) f.insertAdjacentHTML('afterbegin',`<div class="banner" role="alert">${icon('alert',20)}<span>${esc(S.formError)}</span></div>`);
+    return;
+  }
+  S.submitting=true;updateFoot();
+  await wait(reduce?200:1500);
+  const date=S.date,min=S.time,key=keyOf(date);
+  let dent;
+  if(S.dentist&&S.dentist!=='any') dent=dentById(S.dentist);
+  else dent=eligible().find(d=>slotFree(d,date,min))||eligible()[0];
+  S.booked.add(`${dent.id}|${key}|${min}`);
+  const ref='CDC-'+Array.from({length:5},()=>'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[Math.floor(Math.random()*32)]).join('');
+  S.result={dent,date,min,ref,tr:trById(S.treatment)};
+  S.submitting=false;
+  showMine();renderHero();renderNexts();
+  go(4);
+}
+/* Step 5 */
+function gcal(r){
+  const st=new Date(r.date.getFullYear(),r.date.getMonth(),r.date.getDate(),Math.floor(r.min/60),r.min%60);
+  const en=new Date(st.getTime()+r.tr.dur*60000);
+  const f=d=>`${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}00`;
+  return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(`${r.tr.name} at Ciora Dental Care`)+'&dates='+f(st)+'/'+f(en)+'&location='+encodeURIComponent(CLINIC)+'&details='+encodeURIComponent(`With ${r.dent.name}. Reference ${r.ref}.`);
+}
+function stepDone(){
+  const r=S.result;if(!r) return '<p>Nothing booked yet.</p>';
+  const first=esc(S.form.name.trim().split(/\s+/)[0]);
+  return `<div class="done">
+   <div class="done-ic"><svg class="chk" viewBox="0 0 80 80" aria-hidden="true"><circle class="chk-c" cx="40" cy="40" r="34"/><path class="chk-p" d="M26 41l10 10 19-21"/></svg></div>
+   <h2 class="bk-h" tabindex="-1">Your appointment is confirmed.</h2>
+   <p class="bk-sub">See you soon, ${first}. We have emailed the details to <b>${esc(S.form.email.trim())}</b> and will send a reminder 24 hours before your visit.</p>
+   <div class="ticket"><dl>
+     <div><dt>Treatment</dt><dd>${r.tr.name}</dd></div>
+     <div><dt>Dentist</dt><dd>${r.dent.name}</dd></div>
+     <div><dt>Date</dt><dd>${fmtDate(r.date,{weekday:'long',month:'long',day:'numeric'})}</dd></div>
+     <div><dt>Time</dt><dd>${fmtTime(r.min)} (about ${r.tr.dur} min)</dd></div>
+     <div style="grid-column:1/-1"><dt>Location</dt><dd>${CLINIC}</dd></div>
+   </dl><div class="ref"><span>Booking reference</span><b>${r.ref}</b></div></div>
+   <div class="done-actions"><a class="btn btn-primary" href="${gcal(r)}" target="_blank" rel="noopener">Add to calendar</a><button type="button" class="btn btn-ghost" data-act="again">Book another visit</button><button type="button" class="btn btn-ghost" data-close>Close</button></div>
+   <ul class="nextlist"><li>${icon('bell',20)}<span>A text and email reminder arrives 24 hours before.</span></li><li>${icon('swap',20)}<span>Need to change your time? Reschedule free up to 24 hours before.</span></li><li>${icon('clock',20)}<span>Please arrive 10 minutes early. New patients can skip the paperwork, we will send it by email.</span></li></ul>
+  </div>`;
+}
+function showMine(){
+  const b=$('#mine'),r=S.result;if(!r) return;
+  b.hidden=false;b.innerHTML=`${icon('check',16)}<span>${fmtDate(r.date,{weekday:'short',month:'short',day:'numeric'})}, ${fmtTime(r.min)}</span>`;
+  b.setAttribute('aria-label',`Your appointment on ${fmtDate(r.date,{weekday:'long',month:'long',day:'numeric'})} at ${fmtTime(r.min)}. View details.`);
+}
+
+/* Sidebar + footer */
+function updateSide(){
+  $('#bk-steps').innerHTML=STEP_NAMES.map((n,i)=>`<li class="st ${i<S.step||S.step===4?'is-done':i===S.step?'active':''}"${i===S.step?' aria-current="step"':''}><span class="stn">${(i<S.step||S.step===4)?icon('check',14):i+1}</span><span>${n}</span></li>`).join('');
+  const r=S.result&&S.step===4?S.result:null;
+  const tr=r?r.tr:trById(S.treatment);
+  const dent=r?r.dent.name:(S.dentist==='any'?'First available dentist':S.dentist?dentById(S.dentist).name:null);
+  const when=(r||(S.date&&S.time))?`${fmtDate(r?r.date:S.date,{weekday:'short',month:'short',day:'numeric'})}, ${fmtTime(r?r.min:S.time)}`:null;
+  const row=(l,v,sub)=>`<div class="sum-row${v?'':' sum-empty'}"><span>${l}</span><b>${v?esc(v):'Not chosen yet'}</b>${v&&sub?`<span>${sub}</span>`:''}</div>`;
+  $('#bk-sum').innerHTML=`<h4>Your visit</h4>${row('Treatment',tr&&tr.name,tr?tr.dur+' minutes':'')}${row('Dentist',dent)}${row('When',when)}`;
+  $('#bk-count').textContent=`Step ${S.step+1} of 5: ${STEP_NAMES[S.step]}`;
+  $('#bk-segs').innerHTML=STEP_NAMES.map((_,i)=>`<i class="${i<=S.step?'on':''}"></i>`).join('');
+}
+function updateFoot(){
+  const foot=$('#bk-foot'),back=$('#bk-back'),next=$('#bk-next'),hint=$('#bk-hint');
+  foot.hidden=S.step===4;back.hidden=S.step===0;
+  let ready=true,label='Continue',msg='';
+  if(S.step===0){ready=!!S.treatment;msg=ready?'':'Choose a treatment to continue.'}
+  else if(S.step===1){ready=!!S.dentist;msg=ready?'':'Choose a dentist to continue.'}
+  else if(S.step===2){ready=!!(S.date&&S.time);msg=ready?'':(S.loading?'':'Select a time to continue.')}
+  else if(S.step===3){label='Confirm appointment';msg=''}
+  next.disabled=!ready||S.submitting;
+  next.innerHTML=S.submitting?`<span class="spin" aria-hidden="true"></span>Confirming`:label;
+  next.setAttribute('aria-busy',S.submitting?'true':'false');
+  back.disabled=S.submitting;
+  hint.textContent=S.submitting?'Securing your appointment...':msg;
+}
+
+/* Modal events */
+body.addEventListener('pointerdown',()=>{S.viaPointer=true});
+body.addEventListener('keydown',e=>{if(e.key!=='Tab') S.viaPointer=false});
+body.addEventListener('change',e=>{
+  const t=e.target;
+  if(t.name==='treatment'){
+    const changed=S.treatment!==t.value;S.treatment=t.value;
+    if(changed){S.time=null;if(S.dentist&&S.dentist!=='any'&&!dentById(S.dentist).treats.includes(t.value)) S.dentist=null}
+    updateSide();updateFoot();if(S.viaPointer) setTimeout(()=>{if(S.step===0&&S.treatment===t.value) go(1)},reduce?0:320);
+  }else if(t.name==='dentist'){
+    if(S.dentist!==t.value){S.time=null} S.dentist=t.value;
+    updateSide();updateFoot();if(S.viaPointer) setTimeout(()=>{if(S.step===1&&S.dentist===t.value) go(2)},reduce?0:320);
+  }else if(t.name==='ptype'){S.form.type=t.value}
+});
+body.addEventListener('input',e=>{
+  const t=e.target;if(!t.name||!(t.name in S.form)) return;
+  S.form[t.name]=t.value;
+  if(t.name==='msg'){$('#msg-count').textContent=`${t.value.length}/240`}
+  else if(S.touched[t.name]&&t.getAttribute('aria-invalid')) setFieldError(t.name,FIELD[t.name](t.value));
+});
+body.addEventListener('focusout',e=>{
+  const t=e.target;if(!t.name||!FIELD[t.name]) return;
+  if(t.value.trim()===''&&!S.touched[t.name]) return;
+  S.touched[t.name]=true;setFieldError(t.name,FIELD[t.name](t.value));
+});
+body.addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&e.target.tagName==='INPUT'&&e.target.closest('#bk-form')){e.preventDefault();confirmBooking()}
+  const b=e.target.closest&&e.target.closest('.day');
+  if(b&&['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){
+    const all=$$('.day',body),i=all.indexOf(b),step={ArrowLeft:-1,ArrowRight:1,ArrowUp:-7,ArrowDown:7}[e.key];
+    const nb=all[i+step];if(nb&&!nb.disabled){e.preventDefault();all.forEach(x=>x.tabIndex=-1);nb.tabIndex=0;nb.focus()}
+  }
+});
+body.addEventListener('click',e=>{
+  const day=e.target.closest('.day');
+  if(day&&!day.disabled){pickDate(fromKey(day.dataset.date));return}
+  const slot=e.target.closest('.slot');
+  if(slot&&!slot.disabled){S.time=+slot.dataset.min;renderSlots();updateSide();updateFoot();const nb=$(`.slot[data-min="${S.time}"]`);if(nb) nb.focus({preventScroll:true});return}
+  const act=e.target.closest('[data-act]');
+  if(act){
+    const a=act.dataset.act;
+    if(a==='prev'||a==='next'){S.month=new Date(S.month.getFullYear(),S.month.getMonth()+(a==='next'?1:-1),1);renderCal();const nb=$(`[data-act="${a}"]`);if(nb&&!nb.disabled) nb.focus({preventScroll:true})}
+    else if(a==='earliest'){const n=nextOpening(candidates());if(n){S.date=n.date;S.time=n.min;S.month=new Date(n.date.getFullYear(),n.date.getMonth(),1);S.loading=false;slotToken++;go(2)}}
+    else if(a==='nextopen'){const n=nextOpening(candidates(),addDays(S.date,1));
+      if(n){S.month=new Date(n.date.getFullYear(),n.date.getMonth(),1);pickDate(n.date)}
+      else{$('#slots').insertAdjacentHTML('beforeend',`<div class="banner" role="alert" style="margin-top:12px">${icon('alert',20)}<span>No openings in the next 10 weeks. Please call (555) 014-2266.</span></div>`)}}
+    else if(a==='again'){resetBooking();$('#mine').hidden=true;go(0)}
+    return;
+  }
+  if(e.target.closest('[data-close]')) closeBooking();
+});
+$('#bk-back').addEventListener('click',()=>{if(S.step>0&&!S.submitting) go(S.step-1)});
+$('#bk-next').addEventListener('click',()=>{
+  if(S.submitting) return;
+  if(S.step===3){confirmBooking();return}
+  if(S.step<3) go(S.step+1);
+});
+bk.addEventListener('click',e=>{if(e.target.closest('[data-close]')&&!body.contains(e.target)) closeBooking()});
+document.addEventListener('keydown',e=>{
+  if(bk.hidden) return;
+  if(e.key==='Escape'){closeBooking();return}
+  if(e.key==='Tab'){
+    const f=$$('button:not([disabled]),input:not([disabled]),textarea,a[href],[tabindex]:not([tabindex="-1"])',$('.bk-panel')).filter(x=>x.offsetParent!==null||x===document.activeElement);
+    if(!f.length) return;
+    const a=f[0],z=f[f.length-1];
+    if(e.shiftKey&&(document.activeElement===a||document.activeElement===$('.bk-panel'))){e.preventDefault();z.focus()}
+    else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}
+  }
+});
+
+/* ---------- Page: open triggers ---------- */
+document.addEventListener('click',e=>{
+  const mine=e.target.closest('#mine');
+  if(mine){openBooking({resume:true,trigger:mine});return}
+  const b=e.target.closest('[data-book]');
+  if(!b||b.closest('#bk')) return;
+  e.preventDefault();closeNav();
+  openBooking({treatment:b.dataset.treatment,dentist:b.dataset.dentist,slot:b.dataset.slot,trigger:b});
+});
+
+/* ---------- Mobile nav ---------- */
+const burger=$('#burger'),mnav=$('#mnav');
+function closeNav(){burger.setAttribute('aria-expanded','false');burger.setAttribute('aria-label','Open menu');mnav.classList.remove('open');mnav.setAttribute('aria-hidden','true');if(!bk||bk.hidden) document.body.classList.remove('locked')}
+burger.addEventListener('click',()=>{
+  const open=burger.getAttribute('aria-expanded')==='true';
+  if(open){closeNav();return}
+  burger.setAttribute('aria-expanded','true');burger.setAttribute('aria-label','Close menu');mnav.classList.add('open');mnav.setAttribute('aria-hidden','false');document.body.classList.add('locked');
+});
+$$('#mnav a').forEach(a=>a.addEventListener('click',closeNav));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mnav.classList.contains('open')){closeNav();burger.focus()}});
+matchMedia('(min-width:1024px)').addEventListener('change',e=>{if(e.matches) closeNav()});
+
+/* ---------- Scroll: progress, nav, fab ---------- */
+const bar=$('#progress'),nav=$('#nav'),fab=$('#fab');let ticking=false;
+function onScroll(){
+  const h=document.documentElement,max=h.scrollHeight-innerHeight,p=max>0?Math.min(1,scrollY/max):0;
+  bar.style.transform=`scaleX(${p})`;
+  nav.classList.toggle('scrolled',scrollY>12);
+  fab.classList.toggle('show',scrollY>innerHeight*.75&&bk.hidden);
+}
+addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(()=>{onScroll();ticking=false})}},{passive:true});
+addEventListener('resize',onScroll);onScroll();
+
+/* ---------- Reveals ---------- */
+$$('[data-split]').forEach(el=>{
+  const text=el.textContent.trim();
+  el.textContent='';
+  const s=document.createElement('span');s.className='sr';s.textContent=text;el.appendChild(s);
+  text.split(/\s+/).forEach((w,i)=>{
+    const o=document.createElement('span');o.className='w';o.setAttribute('aria-hidden','true');
+    const n=document.createElement('span');n.textContent=w;n.style.transitionDelay=(i*55)+'ms';o.appendChild(n);
+    el.appendChild(o);el.appendChild(document.createTextNode(' '));
+  });
+});
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  const el=e.target;el.classList.add('in');io.unobserve(el);
+  if(el.hasAttribute('data-reveal')) setTimeout(()=>{el.removeAttribute('data-reveal');el.style.removeProperty('--d')},1600);
+}),{threshold:.14,rootMargin:'0px 0px -6% 0px'});
+$$('[data-reveal],[data-split],#hsteps').forEach(el=>io.observe(el));
+
+/* ---------- Counters ---------- */
+function runCount(el){
+  const to=parseFloat(el.dataset.count),dec=+el.dataset.dec||0,suf=el.dataset.suffix||'';
+  const fmt=v=>(dec?v.toFixed(dec):Math.round(v).toLocaleString('en-US'))+suf;
+  if(reduce){el.textContent=fmt(to);return}
+  const t0=performance.now(),dur=1700;
+  (function tick(t){const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,3);el.textContent=fmt(to*e);if(p<1) requestAnimationFrame(tick)})(t0);
+}
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){$$('[data-count]',e.target).forEach(runCount);cio.unobserve(e.target)}}),{threshold:.4});
+const statsEl=$('#stats');if(statsEl){$$('[data-count]',statsEl).forEach(el=>{el.textContent=(el.dataset.dec?'0.0':'0')+(el.dataset.suffix||'')});cio.observe(statsEl)}
+
+/* ---------- Magnetic buttons ---------- */
+if(matchMedia('(hover:hover) and (pointer:fine)').matches&&!reduce){
+  $$('.magnetic').forEach(b=>{
+    b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.16}px,${(e.clientY-r.top-r.height/2)*.28}px)`});
+    b.addEventListener('pointerleave',()=>{b.style.transform=''});
+  });
+}
+
+/* ---------- Reviews carousel ---------- */
+const track=$('#track'),rp=$('#rprev'),rn=$('#rnext');
+function railState(){rp.disabled=track.scrollLeft<8;rn.disabled=track.scrollLeft>track.scrollWidth-track.clientWidth-8}
+const step=()=>{const c=track.querySelector('.review');return c?c.getBoundingClientRect().width+18:320};
+rp.addEventListener('click',()=>track.scrollBy({left:-step(),behavior:reduce?'auto':'smooth'}));
+rn.addEventListener('click',()=>track.scrollBy({left:step(),behavior:reduce?'auto':'smooth'}));
+track.addEventListener('scroll',railState,{passive:true});addEventListener('resize',railState);railState();
+
+/* ---------- Opening hours ---------- */
+(function hours(){
+  const n=new Date(),w=n.getDay(),m=n.getHours()*60+n.getMinutes();
+  $$('#hours tr').forEach(tr=>{if(tr.dataset.days.split(',').includes(String(w))) tr.classList.add('today')});
+  const st=$('#openstate');let open=false,text='Closed today';
+  if(w!==0){const s=w===6?540:510,e=w===6?780:(w===4?1140:1080);if(m>=s&&m<e){open=true;text='Open now, until '+fmtTime(e)}else text=m<s?'Opens at '+fmtTime(s):'Closed for today'}
+  st.classList.toggle('yes',open);st.lastElementChild.textContent=text;
+})();
+
+/* ---------- Soft tap pop ---------- */
+document.addEventListener('click',e=>{
+  const el=e.target.closest('button,.btn,.hslot,.cbtn');
+  if(!el||el.disabled||reduce) return;
+  el.classList.remove('tap');void el.offsetWidth;el.classList.add('tap');
+  el.addEventListener('animationend',()=>el.classList.remove('tap'),{once:true});
+},true);
+
+/* ---------- Init ---------- */
+renderHero();renderNexts();
+})();
+</script>
+</body>
+</html>
