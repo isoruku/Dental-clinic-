@@ -1446,5 +1446,36 @@ document.addEventListener('click',e=>{
 renderHero();renderNexts();
 })();
 </script>
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const clientName = params.get('name');
+    
+    if (clientName) {
+      // 1. Change the browser tab title
+      document.title = clientName + " | Online Booking & Appointments";
+
+      // 2. Replace your default demo name anywhere it appears on the page
+      // CHANGE "Ciora Dental Care" below if your demo uses a different default name!
+      const defaultNames = ["Ciora Dental Care", "Ciora Dental", "Rock On Café", "Rock On Cafe"];
+      
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+      let node;
+      while ((node = walker.nextNode())) {
+        defaultNames.forEach(defaultName => {
+          const regex = new RegExp(defaultName, "gi");
+          if (regex.test(node.nodeValue)) {
+            node.nodeValue = node.nodeValue.replace(regex, clientName);
+          }
+        });
+      }
+
+      // 3. Optional: If you add class="custom-biz-name" to any logo or heading, it replaces that too
+      document.querySelectorAll('.custom-biz-name').forEach(el => {
+        el.textContent = clientName;
+      });
+    }
+  })();
+</script>
 </body>
 </html>
