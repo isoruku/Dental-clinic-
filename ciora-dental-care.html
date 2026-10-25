@@ -1446,6 +1446,66 @@ document.addEventListener('click',e=>{
 renderHero();renderNexts();
 })();
 </script>
+  <script>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  const rawName = params.get('name');
+  if (!rawName) return;
+
+  const fullName = rawName.trim();
+
+  // Smart Splitter: separates the main name (for <b>) from the subtitle (for <small>)
+  // Example: "Lakeflower Family Dental" -> main: "Lakeflower", sub: "Family Dental"
+  // Example: "Dentistry on the Avenue" -> main: "Dentistry on the Avenue", sub: "Dental Care"
+  let mainBrand = fullName;
+  let subBrand = "Dental Care";
+
+  const words = fullName.split(/\s+/);
+  if (words.length >= 2) {
+    mainBrand = words[0];
+    subBrand = words.slice(1).join(" ");
+  }
+
+  // 1. Update Browser Tab Title
+  document.title = `${fullName} | Confident Smiles. Exceptional Care.`;
+
+  // 2. Update the Intro Loading Screen Veil (<div class="veil-in">)
+  const veilText = document.querySelector('.veil-in span');
+  if (veilText) veilText.textContent = mainBrand;
+
+  // 3. Update All 3 Brand Logos (Navbar, Footer, and Booking Modal Sidebar)
+  document.querySelectorAll('.brand').forEach(brand => {
+    brand.setAttribute('aria-label', `${fullName}`);
+    const bTag = brand.querySelector('b');
+    const smallTag = brand.querySelector('small');
+    if (bTag) bTag.textContent = mainBrand;
+    if (smallTag) smallTag.textContent = subBrand;
+  });
+
+  // 4. Update Navigation Links ("Why Ciora" -> "Why Lakeflower")
+  document.querySelectorAll('a[href="#why"]').forEach(a => {
+    a.textContent = `Why ${mainBrand}`;
+  });
+
+  // 5. Update Visit Section, Map Label, and Footer Copyright
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+  let node;
+  while ((node = walker.nextNode())) {
+    if (/Ciora Dental Care/i.test(node.nodeValue)) {
+      node.nodeValue = node.nodeValue.replace(/Ciora Dental Care/gi, fullName);
+    } else if (/Ciora/i.test(node.nodeValue)) {
+      node.nodeValue = node.nodeValue.replace(/Ciora/gi, mainBrand);
+    }
+  }
+
+  // 6. Update demo email address to match their clinic name
+  const cleanDomain = fullName.toLowerCase().replace(/[^a-z0-9]/g, '') + '.com';
+  document.querySelectorAll('a[href^="mailto:"]').forEach(mail => {
+    mail.href = `mailto:hello@${cleanDomain}`;
+    mail.textContent = `hello@${cleanDomain}`;
+  });
+})();
+</script>
 <script>
   (function() {
     const params = new URLSearchParams(window.location.search);
